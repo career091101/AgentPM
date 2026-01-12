@@ -113,8 +113,8 @@ def extract_linkedin_content(markdown: str, variant_number: int = 2) -> Optional
     Returns:
         dict: {"title": str, "body": str, "full_content": str, "first_comment": str}
     """
-    # 新フォーマット: ## LinkedIn投稿案2（パターンX: 名称）
-    pattern = rf'## LinkedIn投稿案{variant_number}（パターン\d+:.*?\）\n\n\*\*トピック\*\*:.*?\n\n---\n\n(.*?)(?=\n---\n|\n## |\Z)'
+    # 新フォーマット: ## LinkedIn案1（パターンX「名称」、...）
+    pattern = rf'## LinkedIn案{variant_number}（.*?\）\n\n(.*?)(?=\n## |\Z)'
     match = re.search(pattern, markdown, re.DOTALL)
 
     if not match:
@@ -138,30 +138,14 @@ def extract_linkedin_content(markdown: str, variant_number: int = 2) -> Optional
     # 新フォーマットの場合
     full_section = match.group(1).strip()
 
-    # 「#### 最初のコメント（firstComment）」セクションを抽出
-    first_comment_pattern = r'####\s+最初のコメント（firstComment）.*?\n\n.*?\n\n(.*?)(?=\n####|\Z)'
-    first_comment_match = re.search(first_comment_pattern, full_section, re.DOTALL)
-
-    first_comment = None
-    if first_comment_match:
-        # 「■ ソース」セクションのみを抽出（実装手順や注意事項は除外）
-        first_comment_raw = first_comment_match.group(1).strip()
-        # 「```」で囲まれたコードブロックや「**実装手順**:」以降を除外
-        if '■ ソース' in first_comment_raw:
-            # 「■ ソース」から始まる部分のみ抽出
-            source_match = re.search(r'■ ソース\n\n(.*?)(?=\n\*\*|\Z)', first_comment_raw, re.DOTALL)
-            if source_match:
-                first_comment = f"■ ソース\n\n{source_match.group(1).strip()}"
-            else:
-                first_comment = first_comment_raw
-
-    # 本文部分（「#### 最初のコメント」より前）を抽出
-    body_match = re.search(r'^(.*?)(?=\n####\s+最初のコメント|\Z)', full_section, re.DOTALL)
-    body = remove_markdown(body_match.group(1).strip()) if body_match else remove_markdown(full_section)
+    # v2形式では「#### 最初のコメント」セクションがないため、本文全体を抽出
+    body = remove_markdown(full_section)
 
     # タイトルは本文の最初の行を使用
     lines = body.split('\n', 1)
     title = lines[0] if lines else ""
+
+    first_comment = None  # v2形式ではfirstCommentなし
 
     return {
         "title": title,
@@ -184,14 +168,8 @@ def extract_x_thread_content(markdown: str, thread_number: int) -> Optional[List
     Returns:
         List[str]: 各ツイートのコンテンツ（5-7件）
     """
-    if thread_number == 1:
-        section_name = "Xスレッド1（Top 1トピック、深掘り型）"
-    elif thread_number == 2:
-        section_name = "Xスレッド2（Top 2トピック、深掘り型）"
-    else:  # thread_number == 3
-        section_name = "Xスレッド3（Top 3トピック、深掘り型）"
-
-    pattern = rf'## {section_name}.*?\n\n(.*?)(?=\n## |\Z)'
+    # v2フォーマット: ## Xスレッド1（Top 1トピック: XXX、深掘り型）
+    pattern = rf'## Xスレッド{thread_number}（.*?\）\n\n(.*?)(?=\n## |\Z)'
     match = re.search(pattern, markdown, re.DOTALL)
 
     if not match:
@@ -279,8 +257,8 @@ def extract_threads_post_with_char_control(markdown: str, post_number: int) -> O
         dict: {"type": "single", "content": str} or
               {"type": "thread", "posts": [...], "total_posts": int}
     """
-    section_name = f"Threads投稿{post_number}（Top {post_number}トピック）"
-    pattern = rf'## {section_name}.*?\n\n(.*?)(?=\n## |\Z)'
+    # v2フォーマット: ## Threads投稿1（Top 1トピック: XXX）
+    pattern = rf'## Threads投稿{post_number}（.*?\）\n\n(.*?)(?=\n## |\Z)'
     match = re.search(pattern, markdown, re.DOTALL)
 
     if not match:

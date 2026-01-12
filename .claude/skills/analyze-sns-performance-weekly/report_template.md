@@ -199,6 +199,22 @@
 
 **期待効果**: {action1_expected_effect}
 **優先度**: {action1_priority}/100
+**エビデンス強度**: {action1_evidence_score}/100
+
+#### 📊 根拠とエビデンス
+
+**内部データ分析**:
+{action1_internal_data}
+
+**業界ベストプラクティス**:
+- 参照: {action1_best_practice_ref}
+- {action1_best_practice_quote}
+
+**最新トレンド**（2026年1月）:
+{action1_trend_insight}
+
+**競合成功事例**:
+{action1_competitor_example}
 
 #### 5ステップ実装手順
 
@@ -210,6 +226,9 @@
 
 **STEP 3: 実施**
 {action1_step3_implementation}
+
+**プラットフォーム固有の注意事項**:
+{action1_platform_notes}
 
 **STEP 4: 測定**
 {action1_step4_measurement}
@@ -223,6 +242,22 @@
 
 **期待効果**: {action2_expected_effect}
 **優先度**: {action2_priority}/100
+**エビデンス強度**: {action2_evidence_score}/100
+
+#### 📊 根拠とエビデンス
+
+**内部データ分析**:
+{action2_internal_data}
+
+**業界ベストプラクティス**:
+- 参照: {action2_best_practice_ref}
+- {action2_best_practice_quote}
+
+**最新トレンド**（2026年1月）:
+{action2_trend_insight}
+
+**競合成功事例**:
+{action2_competitor_example}
 
 #### 5ステップ実装手順
 
@@ -234,6 +269,9 @@
 
 **STEP 3: 実施**
 {action2_step3_implementation}
+
+**プラットフォーム固有の注意事項**:
+{action2_platform_notes}
 
 **STEP 4: 測定**
 {action2_step4_measurement}
@@ -247,6 +285,22 @@
 
 **期待効果**: {action3_expected_effect}
 **優先度**: {action3_priority}/100
+**エビデンス強度**: {action3_evidence_score}/100
+
+#### 📊 根拠とエビデンス
+
+**内部データ分析**:
+{action3_internal_data}
+
+**業界ベストプラクティス**:
+- 参照: {action3_best_practice_ref}
+- {action3_best_practice_quote}
+
+**最新トレンド**（2026年1月）:
+{action3_trend_insight}
+
+**競合成功事例**:
+{action3_competitor_example}
 
 #### 5ステップ実装手順
 
@@ -259,11 +313,229 @@
 **STEP 3: 実施**
 {action3_step3_implementation}
 
+**プラットフォーム固有の注意事項**:
+{action3_platform_notes}
+
 **STEP 4: 測定**
 {action3_step4_measurement}
 
 **STEP 5: 調整**
 {action3_step5_adjustment}
+
+---
+
+### 📍 アクション4: {action4_title}
+
+**期待効果**: {action4_expected_effect}
+**優先度**: {action4_priority}/100
+**エビデンス強度**: {action4_evidence_score}/100
+
+#### 📊 根拠とエビデンス
+
+**内部データ分析**:
+{action4_internal_data}
+
+**業界ベストプラクティス**:
+- 参照: {action4_best_practice_ref}
+- {action4_best_practice_quote}
+
+**最新トレンド**（2026年1月）:
+{action4_trend_insight}
+
+**競合成功事例**:
+{action4_competitor_example}
+
+#### 5ステップ実装手順
+
+**STEP 1: 現状分析**
+{action4_step1_analysis}
+
+**STEP 2: 目標設定**
+{action4_step2_goal}
+
+**STEP 3: 実施**
+{action4_step3_implementation}
+
+**プラットフォーム固有の注意事項**:
+{action4_platform_notes}
+
+**STEP 4: 測定**
+{action4_step4_measurement}
+
+**STEP 5: 調整**
+{action4_step5_adjustment}
+
+---
+
+### 📍 アクション5: {action5_title}
+
+**期待効果**: {action5_expected_effect}
+**優先度**: {action5_priority}/100
+**エビデンス強度**: {action5_evidence_score}/100
+
+#### 📊 根拠とエビデンス
+
+**内部データ分析**:
+{action5_internal_data}
+
+**業界ベストプラクティス**:
+- 参照: {action5_best_practice_ref}
+- {action5_best_practice_quote}
+
+**最新トレンド**（2026年1月）:
+{action5_trend_insight}
+
+**競合成功事例**:
+{action5_competitor_example}
+
+#### 5ステップ実装手順
+
+**STEP 1: 現状分析**
+{action5_step1_analysis}
+
+**STEP 2: 目標設定**
+{action5_step2_goal}
+
+**STEP 3: 実施**
+{action5_step3_implementation}
+
+**プラットフォーム固有の注意事項**:
+{action5_platform_notes}
+
+**STEP 4: 測定**
+{action5_step4_measurement}
+
+**STEP 5: 調整**
+{action5_step5_adjustment}
+
+---
+
+### 📍 アクション6: {action6_title}
+
+**期待効果**: {action6_expected_effect}
+**優先度**: {action6_priority}/100
+**エビデンス強度**: {action6_evidence_score}/100
+
+#### 📊 根拠とエビデンス
+
+**内部データ分析**:
+{action6_internal_data}
+
+**業界ベストプラクティス**:
+- 参照: {action6_best_practice_ref}
+- {action6_best_practice_quote}
+
+**最新トレンド**（2026年1月）:
+{action6_trend_insight}
+
+**競合成功事例**:
+{action6_competitor_example}
+
+#### 5ステップ実装手順
+
+**STEP 1: 現状分析**
+{action6_step1_analysis}
+
+**STEP 2: 目標設定**
+{action6_step2_goal}
+
+**STEP 3: 実施**
+{action6_step3_implementation}
+
+**プラットフォーム固有の注意事項**:
+{action6_platform_notes}
+
+**STEP 4: 測定**
+{action6_step4_measurement}
+
+**STEP 5: 調整**
+{action6_step5_adjustment}
+
+---
+
+### 📍 アクション7: {action7_title}
+
+**期待効果**: {action7_expected_effect}
+**優先度**: {action7_priority}/100
+**エビデンス強度**: {action7_evidence_score}/100
+
+#### 📊 根拠とエビデンス
+
+**内部データ分析**:
+{action7_internal_data}
+
+**業界ベストプラクティス**:
+- 参照: {action7_best_practice_ref}
+- {action7_best_practice_quote}
+
+**最新トレンド**（2026年1月）:
+{action7_trend_insight}
+
+**競合成功事例**:
+{action7_competitor_example}
+
+#### 5ステップ実装手順
+
+**STEP 1: 現状分析**
+{action7_step1_analysis}
+
+**STEP 2: 目標設定**
+{action7_step2_goal}
+
+**STEP 3: 実施**
+{action7_step3_implementation}
+
+**プラットフォーム固有の注意事項**:
+{action7_platform_notes}
+
+**STEP 4: 測定**
+{action7_step4_measurement}
+
+**STEP 5: 調整**
+{action7_step5_adjustment}
+
+---
+
+### 📍 アクション8: {action8_title}
+
+**期待効果**: {action8_expected_effect}
+**優先度**: {action8_priority}/100
+**エビデンス強度**: {action8_evidence_score}/100
+
+#### 📊 根拠とエビデンス
+
+**内部データ分析**:
+{action8_internal_data}
+
+**業界ベストプラクティス**:
+- 参照: {action8_best_practice_ref}
+- {action8_best_practice_quote}
+
+**最新トレンド**（2026年1月）:
+{action8_trend_insight}
+
+**競合成功事例**:
+{action8_competitor_example}
+
+#### 5ステップ実装手順
+
+**STEP 1: 現状分析**
+{action8_step1_analysis}
+
+**STEP 2: 目標設定**
+{action8_step2_goal}
+
+**STEP 3: 実施**
+{action8_step3_implementation}
+
+**プラットフォーム固有の注意事項**:
+{action8_platform_notes}
+
+**STEP 4: 測定**
+{action8_step4_measurement}
+
+**STEP 5: 調整**
+{action8_step5_adjustment}
 
 ---
 
