@@ -1,0 +1,5 @@
+Analyze the codebase structure and create a summary
+Review all Python files in scripts/ directory and suggest improvements
+Generate documentation for all skills in .claude/skills/
+Run tests and create a test coverage report
+Search for TODO comments and create a prioritized task list

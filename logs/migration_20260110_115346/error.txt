@@ -1,0 +1,1 @@
+Migration not eligible (completion_score < 70)

@@ -1,0 +1,109 @@
+{
+  "name": "post-multiplatform",
+  "description": "LinkedIn/X/Threadsへのマルチプラットフォーム予約投稿（Option C対応、6投稿/日）",
+  "version": "1.0.0",
+  "author": "Claude Code Agent",
+  "created": "2026-01-07",
+  "arguments": [
+    {
+      "name": "auto",
+      "description": "確認プロンプトをスキップして自動実行",
+      "type": "boolean",
+      "default": false,
+      "required": false
+    },
+    {
+      "name": "date",
+      "description": "投稿ファイルの日付（YYYY-MM-DD形式）",
+      "type": "string",
+      "default": "auto-detect",
+      "required": false
+    },
+    {
+      "name": "platforms",
+      "description": "投稿先プラットフォーム（カンマ区切り: linkedin,twitter,threads）",
+      "type": "string",
+      "default": "linkedin,twitter,threads",
+      "required": false
+    }
+  ],
+  "dependencies": {
+    "python_packages": [
+      "requests",
+      "python-dotenv"
+    ],
+    "internal_modules": [
+      "scripts/late_api_multi_post_v2.py"
+    ],
+    "config_files": [
+      ".env"
+    ],
+    "environment_variables": [
+      "LATE_API_KEY",
+      "LATE_LINKEDIN_ACCOUNT_ID",
+      "LATE_TWITTER_ACCOUNT_ID",
+      "LATE_THREADS_ACCOUNT_ID"
+    ]
+  },
+  "inputs": {
+    "required": [
+      {
+        "name": "posts_generated_takano_{date}.md",
+        "description": "Phase 3で生成された投稿ファイル",
+        "path": "Stock/programs/副業/projects/SNS/data/"
+      }
+    ]
+  },
+  "outputs": {
+    "files": [
+      {
+        "name": "late_api_multiplatform_{timestamp}.json",
+        "description": "予約投稿の結果",
+        "path": "Stock/programs/副業/projects/SNS/data/"
+      }
+    ],
+    "fields": [
+      "executed_at",
+      "target_date",
+      "posting_schedule",
+      "results"
+    ]
+  },
+  "posting_schedule": {
+    "linkedin": [
+      {"time": "08:00", "type": "main", "topic": "top1"}
+    ],
+    "twitter": [
+      {"time": "07:30", "type": "derived", "topic": "top1"},
+      {"time": "12:00", "type": "thread", "topic": "top2"},
+      {"time": "20:00", "type": "thread", "topic": "top3"}
+    ],
+    "threads": [
+      {"time": "07:30", "type": "derived", "topic": "top1"},
+      {"time": "20:00", "type": "new", "topic": "top2"}
+    ]
+  },
+  "execution": {
+    "mode": "bash_script",
+    "script": "scripts/late_api_multi_post_v2.py",
+    "working_directory": "Stock/programs/副業/projects/SNS",
+    "estimated_time": "2-5分"
+  },
+  "related_skills": [
+    "collect-x-timeline",
+    "extract-content",
+    "research-topic",
+    "generate-sns-posts-takano",
+    "sns-automation"
+  ],
+  "tags": [
+    "linkedin",
+    "twitter",
+    "threads",
+    "social-media",
+    "late-api",
+    "automation",
+    "multi-platform",
+    "option-c"
+  ]
+}

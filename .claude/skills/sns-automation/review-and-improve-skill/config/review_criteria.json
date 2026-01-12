@@ -1,0 +1,277 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-01-06",
+
+  "prohibited_items": {
+    "sns_metrics": {
+      "severity": "high",
+      "patterns": [
+        "いいね\\s?\\d+",
+        "リツイート\\s?\\d+",
+        "\\d+\\s?ビュー",
+        "\\d+\\s?インプレッション",
+        "フォロワー\\s?\\d+",
+        "\\d+\\s?シェア"
+      ],
+      "suggestion": "SNS数値を削除し、代替表現（'大きな反響を呼んでいる'等）を使用"
+    },
+    "sns_accounts": {
+      "severity": "high",
+      "patterns": [
+        "@[a-zA-Z0-9_]+",
+        "[a-zA-Z0-9_]+のスレッド",
+        "[a-zA-Z0-9_]+のツイート"
+      ],
+      "suggestion": "個人アカウント名を削除し、一般的表現（'AI研究者'、'業界専門家'等）を使用"
+    },
+    "meta_information": {
+      "severity": "high",
+      "patterns": [
+        "想定エンゲージメント",
+        "予測いいね\\s?\\d+",
+        "狙いは",
+        "戦略として",
+        "意図は"
+      ],
+      "suggestion": "メタ情報セクションを削除"
+    },
+    "vague_expressions": {
+      "severity": "medium",
+      "patterns": [
+        "かもしれない",
+        "と思われる",
+        "の可能性がある",
+        "おそらく"
+      ],
+      "suggestion": "断定型表現に変更（'〜だ。'、'〜である。'）"
+    },
+    "hearsay_expressions": {
+      "severity": "medium",
+      "patterns": [
+        "と述べた",
+        "との見解を示した",
+        "と報じられた",
+        "と言われている"
+      ],
+      "suggestion": "断定型表現に変更（'〜と断言した。つまり、〜だ。'）"
+    },
+    "hashtag_excess": {
+      "severity": "low",
+      "patterns": [
+        "#\\w+"
+      ],
+      "max_count": 2,
+      "suggestion": "ハッシュタグを2個以内に制限"
+    },
+    "emoji_excess": {
+      "severity": "low",
+      "max_ratio": 0.04,
+      "suggestion": "絵文字を本文の4%以内に制限"
+    },
+    "call_expressions": {
+      "severity": "medium",
+      "patterns": [
+        "経営者のあなたへ:",
+        "CEOのあなたへ:",
+        "起業家のあなたへ:"
+      ],
+      "suggestion": "呼びかけ表現を削除し、直接問いかけに変換"
+    }
+  },
+
+  "required_elements": {
+    "casual_tone": {
+      "min_count": 2,
+      "recommended_count": 4,
+      "phrases": [
+        "ヤバい", "やばい",
+        "マジで", "まじで",
+        "完全に",
+        "の件",
+        "これ、",
+        "だけど",
+        "すぎる",
+        "大丈夫？",
+        "どう思う？",
+        "間違いない",
+        "確実だ",
+        "桁違い",
+        "次元が違う",
+        "ありえない",
+        "前代未聞"
+      ],
+      "score_weights": {
+        "0": 0,
+        "1": 50,
+        "2+": 100
+      }
+    },
+    "expansion_phrases": {
+      "applicable_patterns": [1, 3],
+      "phrases": [
+        "でも、ここからが本当の話だ",
+        "でも、本質はここからだ",
+        "でも、ここからが重要だ",
+        "真実はここにある",
+        "本当の問題はこれだ",
+        "核心はここだ",
+        "でも、見逃せない事実がある",
+        "本当に注目すべきはこれだ",
+        "でも、最も重要なのはこれだ",
+        "真の意味はここにある"
+      ],
+      "score_weights": {
+        "unused": 0,
+        "used": 100,
+        "duplicate": -50
+      }
+    },
+    "numeric_data": {
+      "min_count": 5,
+      "recommended_count": 10,
+      "valid_patterns": [
+        "\\d+億ドル", "\\d+兆円", "\\d+億円", "\\d+万円",
+        "\\d+%", "年率\\d+%", "CAGR\\s?\\d+%",
+        "バージョン\\s?\\d+\\.?\\d*", "v\\d+\\.?\\d*",
+        "\\d{4}年", "\\d+月", "\\d+日",
+        "\\d+人", "\\d+社", "\\d+件",
+        "\\d+倍", "\\d+万", "\\d+千"
+      ],
+      "invalid_patterns": [
+        "いいね\\s?\\d+",
+        "リツイート\\s?\\d+",
+        "\\d+\\s?ビュー",
+        "\\d+\\s?インプレッション"
+      ],
+      "score_weights": {
+        "0-4": 0,
+        "5-6": 70,
+        "7-9": 85,
+        "10+": 100
+      }
+    },
+    "company_names": {
+      "min_count": 3,
+      "recommended_count": 5,
+      "patterns": [
+        "[ァ-ヴー]{2,}",
+        "[A-Z][a-z]{2,}",
+        "[A-Z]{2,}"
+      ],
+      "score_weights": {
+        "0-2": 0,
+        "3": 80,
+        "4": 90,
+        "5+": 100
+      }
+    },
+    "character_count": {
+      "min_count": 700,
+      "optimal_range": [900, 1500],
+      "score_weights": {
+        "<700": 0,
+        "700-899": 80,
+        "900-1499": 100,
+        "1500+": 90
+      }
+    }
+  },
+
+  "quality_thresholds": {
+    "total_score": {
+      "fail": 70,
+      "pass": 80,
+      "excellent": 90
+    },
+    "individual_elements": {
+      "critical": 50,
+      "acceptable": 70,
+      "excellent": 90
+    }
+  },
+
+  "priority_levels": {
+    "P0": {
+      "name": "緊急",
+      "conditions": {
+        "occurrence_rate": 0.70,
+        "severity": "high"
+      },
+      "deadline": "即時対応"
+    },
+    "P1": {
+      "name": "重要",
+      "conditions": {
+        "occurrence_rate": 0.50,
+        "severity": "medium",
+        "or": {
+          "occurrence_rate": 0.30,
+          "severity": "high"
+        }
+      },
+      "deadline": "1週間以内"
+    },
+    "P2": {
+      "name": "推奨",
+      "conditions": {
+        "occurrence_rate": 0.30,
+        "severity": "medium"
+      },
+      "deadline": "2週間以内"
+    },
+    "P3": {
+      "name": "低",
+      "conditions": {
+        "occurrence_rate": 0.0,
+        "severity": "low"
+      },
+      "deadline": "1ヶ月以内"
+    }
+  },
+
+  "alternative_expressions": {
+    "sns_metrics": [
+      "大きな反響を呼んでいる",
+      "注目を集めている",
+      "話題になっている",
+      "業界で注目されている",
+      "開発者コミュニティで話題になっている",
+      "AI研究者の間で議論を呼んでいる",
+      "専門家が注目している",
+      "業界関係者の関心を集めている",
+      "技術コミュニティで評価されている",
+      "エキスパートが支持している"
+    ],
+    "sns_accounts": [
+      "AI開発者コミュニティ",
+      "業界専門家",
+      "技術コミュニティ",
+      "AI研究者",
+      "開発者の見解",
+      "専門家の分析",
+      "業界関係者",
+      "エキスパート",
+      "技術者グループ",
+      "研究者コミュニティ"
+    ]
+  },
+
+  "validation_schedule": {
+    "post_generation": {
+      "frequency": "毎回",
+      "actions": ["レビューレポート生成"]
+    },
+    "weekly": {
+      "frequency": "月曜朝",
+      "actions": ["改善提案レポート生成", "問題傾向分析"]
+    },
+    "monthly": {
+      "frequency": "月初",
+      "actions": ["スキル更新案生成", "自動適用（P0, P1のみ）"]
+    },
+    "quarterly": {
+      "frequency": "四半期末",
+      "actions": ["効果検証レポート生成", "長期トレンド分析"]
+    }
+  }
+}

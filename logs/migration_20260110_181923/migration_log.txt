@@ -1,0 +1,3 @@
+[2026-01-10 18:19:23] [INFO] === Auto Migration Started ===
+[2026-01-10 18:19:24] [INFO] Metadata JSON: /Users/yuichi/AIPM/aipm_v0/tests/workspace_auto_migration/Flow/202601/2026-01-10/draft_project_charter.md
+[2026-01-10 18:19:24] [ERROR] Migration not eligible (completion_score < 70)

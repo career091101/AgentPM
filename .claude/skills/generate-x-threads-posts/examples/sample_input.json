@@ -1,0 +1,26 @@
+{
+  "example_1_simple": {
+    "input_type": "topic",
+    "input_value": "OpenAIのGPT-5.2プロンプトガイドが公開され、プロンプトエンジニアリングの常識が変わりつつある"
+  },
+  "example_2_url": {
+    "input_type": "article_url",
+    "input_value": "https://example.com/ai-news",
+    "image_path": "/path/to/image.png"
+  },
+  "example_3_keyword": {
+    "input_type": "keyword",
+    "input_value": "生成AI 最新動向 2026"
+  },
+  "example_4_scheduled_date": {
+    "input_type": "topic",
+    "input_value": "AIエージェントの未来について考察",
+    "scheduled_date": "2026-01-10"
+  },
+  "example_5_custom_time": {
+    "input_type": "topic",
+    "input_value": "データサイエンスの最新トレンド",
+    "scheduled_time": "21:00",
+    "days_ahead": 30
+  }
+}

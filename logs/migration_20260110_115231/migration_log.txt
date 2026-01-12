@@ -1,0 +1,3 @@
+[2026-01-10 11:52:31] [INFO] === Auto Migration Started ===
+[2026-01-10 11:52:31] [INFO] Metadata JSON: Flow/202601/2026-01-10/metadata_project_charter.json
+[2026-01-10 11:52:31] [ERROR] Migration not eligible (completion_score < 70)

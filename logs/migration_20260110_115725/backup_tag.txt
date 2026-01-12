@@ -1,0 +1,5 @@
+[main afb6ff98] Auto-save before migration: 2026-01-10 11:57:26
+ 5 files changed, 26 insertions(+), 2 deletions(-)
+ create mode 100644 aipm_v0/logs/migration_20260110_115643/backup_tag.txt
+ create mode 100644 aipm_v0/logs/migration_20260110_115725/migration_log.txt
+pre-confirm-20260110-115725

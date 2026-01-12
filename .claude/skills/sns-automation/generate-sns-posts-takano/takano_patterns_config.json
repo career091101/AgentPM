@@ -1,0 +1,81 @@
+{
+  "pattern_selection_algorithm": {
+    "description": "入力内容を分析し、最適な3パターンを選択する基準",
+    "rules": [
+      {
+        "input_feature": "数値データが豊富",
+        "recommended_patterns": ["数字 × 断定型", "比較 × 驚異的数字"],
+        "reason": "データの強みを活かす"
+      },
+      {
+        "input_feature": "著名人の発言あり",
+        "recommended_patterns": ["衝撃 × 企業名", "逆張り × 権威引用"],
+        "reason": "権威性を最大化"
+      },
+      {
+        "input_feature": "業界変化・トレンド",
+        "recommended_patterns": ["問題提起 × 具体例", "リスト型"],
+        "reason": "読者の関心に訴求"
+      },
+      {
+        "input_feature": "複数の事実・統計",
+        "recommended_patterns": ["リスト型", "比較 × 驚異的数字"],
+        "reason": "情報量を活かす"
+      },
+      {
+        "input_feature": "カジュアルなトーン適合",
+        "recommended_patterns": ["高野式「〜の件」型"],
+        "reason": "親しみやすさ重視"
+      }
+    ],
+    "diversity_rules": {
+      "must": "3案は異なる3パターンから選択（重複禁止）",
+      "recommended": "入力内容との適合度が高い順に選択",
+      "balance": "数字重視型・表現重視型・構成重視型を組み合わせる"
+    }
+  },
+  "seven_patterns_overview": [
+    {
+      "id": 1,
+      "name": "数字 × 断定型",
+      "description": "具体的数値・倍率・金額を最優先",
+      "usage": "数値データが豊富な入力に最適"
+    },
+    {
+      "id": 2,
+      "name": "衝撃 × 企業名",
+      "description": "著名人の発言や業界への衝撃を強調",
+      "usage": "著名人の発言がある入力に最適"
+    },
+    {
+      "id": 3,
+      "name": "比較 × 驚異的数字",
+      "description": "倍率・変化率の比較で驚きを演出",
+      "usage": "数値比較データがある入力に最適"
+    },
+    {
+      "id": 4,
+      "name": "問題提起 × 具体例",
+      "description": "読者の課題や業界の変化を問いかける",
+      "usage": "業界変化・トレンドに関する入力に最適"
+    },
+    {
+      "id": 5,
+      "name": "逆張り × 権威引用",
+      "description": "一般論の逆を権威者の言葉で裏付け",
+      "usage": "権威者の逆張り発言がある入力に最適"
+    },
+    {
+      "id": 6,
+      "name": "高野式「〜の件」型",
+      "description": "カジュアルかつインパクトのある口語体",
+      "usage": "カジュアルなトーンが適合する入力に最適"
+    },
+    {
+      "id": 7,
+      "name": "リスト型・衝撃ファクト連打",
+      "description": "複数の事実を列挙してインパクト最大化",
+      "usage": "複数の事実・統計がある入力に最適"
+    }
+  ]
+}

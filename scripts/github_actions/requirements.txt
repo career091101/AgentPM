@@ -1,0 +1,8 @@
+# GitHub Actions Scripts Requirements
+# Week 7: GitHub Action統合
+
+# Anthropic API client
+anthropic>=0.39.0
+
+# HTTP requests
+requests>=2.31.0

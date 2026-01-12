@@ -1,0 +1,47 @@
+{
+  "name": "generate-linkedin-image",
+  "version": "1.0.0",
+  "description": "LinkedIn投稿テキストから高エンゲージメント仕様のOGP画像を自動生成",
+  "command": "generate-linkedin-image",
+  "tags": ["linkedin", "image-generation", "ogp", "social-media", "marketing"],
+  "author": "Claude Code Skills Team",
+  "created": "2026-01-06",
+  "updated": "2026-01-06",
+  "category": "social-media",
+  "requirements": {
+    "environment_variables": [
+      "GOOGLE_GEMINI_API_KEY"
+    ],
+    "dependencies": [
+      "google-genai",
+      "pillow"
+    ]
+  },
+  "features": [
+    "NanoBananaPro（Gemini 3 Pro Image）API統合",
+    "LinkedIn最適サイズ自動生成（1080×1080px正方形）",
+    "断定型キャッチコピー自動抽出（数値・企業名含む）",
+    "映画的ドキュメンタリースタイル写真",
+    "WCAG 2.1 AA基準準拠（コントラスト比4.5:1以上）",
+    "スクリム効果テキストオーバーレイ",
+    "肖像権・商標権保護（実在人物・企業ロゴ不使用）"
+  ],
+  "usage": {
+    "basic": "/generate-linkedin-image",
+    "custom_prompt": "選択肢5でカスタムプロンプト入力"
+  },
+  "expected_outcomes": {
+    "engagement_rate": "1.02% → 3.0%以上（約3倍向上）",
+    "generation_time": "5分以内",
+    "file_format": "PNG（1080×1080px、5MB以下）"
+  },
+  "evidence_based": {
+    "workspace_analysis": "47投稿分析（LinkedIn_コンテンツ品質調査_完全レポート.md）",
+    "web_research": "2026年LinkedIn画像ベストプラクティス調査",
+    "top_patterns": [
+      "断定型表現100%使用",
+      "企業名平均1.2社以上",
+      "数値データ平均3.8個以上"
+    ]
+  }
+}

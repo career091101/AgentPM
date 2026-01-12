@@ -1,0 +1,8 @@
+[main 61b8a000] Auto-save before migration: 2026-01-10 11:57:32
+ 6 files changed, 39 insertions(+)
+ create mode 100644 aipm_v0/Stock/programs/test-project/documents/initiating/project_charter.md
+ create mode 100644 aipm_v0/logs/migration_20260110_115725/backup_tag.txt
+ create mode 100644 aipm_v0/logs/migration_20260110_115725/metadata_input.json
+ create mode 100644 aipm_v0/logs/migration_20260110_115725/success.txt
+ create mode 100644 aipm_v0/logs/migration_20260110_115732/migration_log.txt
+pre-confirm-20260110-115732

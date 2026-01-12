@@ -1,0 +1,17 @@
+[ralph-guga-generation db17b4cd] Auto-save before migration: 2026-01-10 18:27:22
+ 16 files changed, 1438 insertions(+), 5 deletions(-)
+ create mode 100644 aipm_v0/logs/migration_20260110_182722/migration_log.txt
+ create mode 100644 week2_mvp/README.md
+ create mode 100644 week2_mvp/config/__init__.py
+ create mode 100644 week2_mvp/dashboard/app.py
+ create mode 100644 week2_mvp/scripts/analyze_data.py
+ create mode 100644 week2_mvp/scripts/collect_data.py
+ create mode 100644 week2_mvp/src/__init__.py
+ create mode 100644 week2_mvp/src/analyzers/__init__.py
+ create mode 100644 week2_mvp/src/analyzers/claude_analyzer.py
+ create mode 100644 week2_mvp/src/collectors/__init__.py
+ create mode 100644 week2_mvp/src/collectors/note_collector.py
+ create mode 100644 week2_mvp/src/collectors/twitter_collector.py
+ create mode 100644 week2_mvp/src/database/__init__.py
+ create mode 100644 week2_mvp/src/utils/__init__.py
+pre-confirm-20260110-182722

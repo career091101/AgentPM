@@ -1,0 +1,88 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(claude mcp add-from-claude-desktop:*)",
+      "WebFetch(domain:example.com)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git config:*)",
+      "Bash(git gc:*)",
+      "Bash(ssh:*)",
+      "Bash(gh auth status:*)",
+      "Bash(git fetch:*)",
+      "Bash(git rev-list:*)",
+      "Bash(git cat-file:*)",
+      "Bash(git worktree:*)",
+      "Bash(git branch:*)",
+      "Bash(git log:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(sort:*)",
+      "Bash(git lfs version:*)",
+      "Bash(brew install:*)",
+      "Bash(git lfs install:*)",
+      "Bash(git lfs migrate:*)",
+      "Bash(git stash:*)",
+      "Bash(git reset:*)",
+      "Bash(python3:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run lint:*)",
+      "Bash(npm test:*)",
+      "Bash(tmux:*)",
+      "Bash(ps:*)",
+      "Bash(kill:*)",
+      "Bash(chmod:*)",
+      "Bash(mkdir:*)",
+      "Bash(ln:*)",
+      "Bash(black:*)",
+      "Bash(isort:*)",
+      "Bash(prettier:*)"
+    ],
+    "defaultMode": "delegate"
+  },
+
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Users/yuichi/AIPM/aipm_v0/scripts/format_changed_file.sh \"$file_path\"",
+            "description": "Auto-format code after Edit/Write (Week 2 implementation)"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay /System/Library/Sounds/Glass.aiff",
+            "description": "Play sound on task completion"
+          },
+          {
+            "type": "command",
+            "command": "bash /Users/yuichi/AIPM/aipm_v0/scripts/claude_notify.sh success \"Claude Code\" \"Task completed successfully\" \"Glass\"",
+            "description": "Send macOS notification on task completion (Week 3 implementation)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "enabledPlugins": {
+    "ralph-wiggum@claude-plugins-official": true,
+    "feature-dev@claude-plugins-official": true
+  },
+
+  "statusLine": {
+    "alwaysShowContext": true
+  }
+}

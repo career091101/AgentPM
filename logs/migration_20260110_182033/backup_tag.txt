@@ -1,0 +1,16 @@
+[main 1be09422] Auto-save before migration: 2026-01-10 18:20:35
+ 14 files changed, 1921 insertions(+), 2 deletions(-)
+ create mode 100644 "aipm_v0/Stock/programs/\345\211\257\346\245\255/projects/SNS/reports/integration_test_report_20260110.md"
+ create mode 100644 aipm_v0/logs/migration_20260110_181923/error.txt
+ create mode 100644 aipm_v0/logs/migration_20260110_181923/migration_log.txt
+ create mode 100644 aipm_v0/logs/migration_20260110_182033/migration_log.txt
+ create mode 160000 aipm_v0/tests/workspace_auto_migration
+ create mode 100644 week1_research/research_report_week1.md
+ create mode 100644 week2_mvp/.env.example
+ create mode 100644 week2_mvp/.gitignore
+ create mode 100644 week2_mvp/MVP_PLAN.md
+ create mode 100644 week2_mvp/config/settings.py
+ create mode 100644 week2_mvp/requirements.txt
+ create mode 100644 week2_mvp/src/database/db.py
+ create mode 100644 week2_mvp/src/database/models.py
+pre-confirm-20260110-182033

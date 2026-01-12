@@ -1,0 +1,139 @@
+{
+  "version": "0.1.0",
+  "last_updated": "2026-01-06T00:00:00+09:00",
+  "account_settings": {
+    "comment": "Phase 3で実装。エンゲージメント予測に使用",
+    "followers_count": 1000,
+    "is_premium": true,
+    "account_created": "2024-01-01",
+    "average_base_er": 0.03
+  },
+  "trending_hashtags": {
+    "business": [
+      "#AI活用",
+      "#生産性向上",
+      "#副業",
+      "#起業",
+      "#マーケティング",
+      "#Web3",
+      "#DX推進",
+      "#ChatGPT",
+      "#スキルアップ",
+      "#働き方改革"
+    ],
+    "lifestyle": [
+      "#自己啓発",
+      "#習慣化",
+      "#ミニマリスト",
+      "#健康管理",
+      "#時間術",
+      "#読書",
+      "#朝活",
+      "#ライフハック",
+      "#モチベーション",
+      "#メンタルヘルス"
+    ],
+    "tech": [
+      "#プログラミング",
+      "#Python",
+      "#JavaScript",
+      "#AI",
+      "#機械学習",
+      "#Web開発",
+      "#エンジニア",
+      "#データサイエンス",
+      "#クラウド",
+      "#セキュリティ"
+    ]
+  },
+  "engagement_history": {
+    "comment": "Phase 3で実装予定。過去投稿のエンゲージメント実績を記録",
+    "posts": []
+  },
+  "optimal_posting_times": {
+    "comment": "Phase 4で実装予定。時間帯別のエンゲージメント率を記録",
+    "weekday": {
+      "morning": {
+        "time": "08:00-09:00",
+        "avg_engagement_rate": null,
+        "sample_count": 0
+      },
+      "noon": {
+        "time": "12:00-13:00",
+        "avg_engagement_rate": null,
+        "sample_count": 0
+      },
+      "evening": {
+        "time": "21:00-22:00",
+        "avg_engagement_rate": null,
+        "sample_count": 0
+      }
+    },
+    "weekend": {
+      "morning": {
+        "time": "10:00-11:00",
+        "avg_engagement_rate": null,
+        "sample_count": 0
+      },
+      "afternoon": {
+        "time": "15:00-16:00",
+        "avg_engagement_rate": null,
+        "sample_count": 0
+      },
+      "evening": {
+        "time": "20:00-21:00",
+        "avg_engagement_rate": null,
+        "sample_count": 0
+      }
+    }
+  },
+  "pattern_performance": {
+    "comment": "Phase 4で実装予定。バズ構文パターン別のエンゲージメント率",
+    "category_1": {
+      "pattern_1": {
+        "text": "有益だからすぐ消します。",
+        "usage_count": 0,
+        "avg_engagement_rate": null,
+        "last_used": null
+      },
+      "pattern_2": {
+        "text": "※これガチ有益だからすぐ消します",
+        "usage_count": 0,
+        "avg_engagement_rate": null,
+        "last_used": null
+      }
+    }
+  },
+  "shadowban_prevention": {
+    "comment": "Phase 4で実装予定。シャドウバン回避のための投稿間隔監視",
+    "hourly_limit": 5,
+    "daily_limit": 50,
+    "recent_posts": []
+  },
+  "prohibited_keywords": [
+    "100%稼げる",
+    "絶対に儲かる",
+    "必ず成功",
+    "リスクゼロ",
+    "無料で全員に配る",
+    "今すぐクリック",
+    "限定〇名",
+    "先着〇名",
+    "返金保証",
+    "誰でも簡単"
+  ],
+  "character_count_targets": {
+    "single_tweet": {
+      "min": 100,
+      "optimal": 135,
+      "max": 140,
+      "comment": "日本語文字数。半角換算では270カウント目標"
+    },
+    "thread_tweet": {
+      "min": 80,
+      "optimal": 120,
+      "max": 135,
+      "comment": "スレッド各ツイート。Phase 2で使用"
+    }
+  }
+}

@@ -1,0 +1,408 @@
+# PMBOK Sections Definition
+# PMBOK 7フェーズ × 各ドキュメントタイプの必須セクション定義
+# Completion Judge Agentが参照するデータファイル
+
+# フェーズ1: 立ち上げ（Initiating）
+Initiating:
+  project_charter:
+    required_sections:
+      - "プロジェクト目的"
+      - "ビジョン"
+      - "成功基準"
+      - "ステークホルダー"
+      - "スコープ概要"
+      - "リスク概要"
+      - "マイルストーン"
+    optional_sections:
+      - "予算概算"
+      - "チーム体制"
+      - "前提条件"
+      - "制約事項"
+    min_completion_score: 70
+
+  stakeholder_analysis:
+    required_sections:
+      - "ステークホルダー一覧"
+      - "影響度分析"
+      - "期待値マトリックス"
+      - "コミュニケーション戦略"
+    optional_sections:
+      - "RACI図"
+      - "エスカレーションパス"
+    min_completion_score: 70
+
+  program_definition:
+    required_sections:
+      - "プログラム概要"
+      - "プロジェクト一覧"
+      - "依存関係"
+      - "ガバナンス体制"
+    optional_sections:
+      - "リソース配分計画"
+      - "統合スケジュール"
+    min_completion_score: 70
+
+# フェーズ2: 発見（Discovery）
+Discovery:
+  assumption_map:
+    required_sections:
+      - "前提条件一覧"
+      - "リスク仮説"
+      - "検証方法"
+      - "優先順位"
+    optional_sections:
+      - "検証結果"
+      - "学習内容"
+    min_completion_score: 70
+
+  persona:
+    required_sections:
+      - "ペルソナ名"
+      - "デモグラフィック情報"
+      - "課題・ニーズ"
+      - "行動パターン"
+      - "ゴール"
+    optional_sections:
+      - "技術スキル"
+      - "利用環境"
+      - "引用・実在インタビュー"
+    min_completion_score: 75
+
+  problem_statement:
+    required_sections:
+      - "課題定義"
+      - "影響範囲"
+      - "現状分析"
+      - "原因特定"
+    optional_sections:
+      - "代替アプローチ"
+      - "優先順位付け"
+    min_completion_score: 70
+
+  user_journey_map:
+    required_sections:
+      - "ユーザーストーリー"
+      - "タッチポイント"
+      - "感情曲線"
+      - "ペインポイント"
+      - "機会領域"
+    optional_sections:
+      - "チャネル分析"
+      - "改善提案"
+    min_completion_score: 75
+
+  solution_definition:
+    required_sections:
+      - "ソリューション概要"
+      - "価値提案"
+      - "ターゲット"
+      - "機能概要"
+    optional_sections:
+      - "競合比較"
+      - "差別化戦略"
+    min_completion_score: 70
+
+  validation_plan:
+    required_sections:
+      - "検証仮説"
+      - "検証方法"
+      - "成功基準"
+      - "タイムライン"
+    optional_sections:
+      - "リソース要件"
+      - "リスク緩和策"
+    min_completion_score: 70
+
+  ux_research_overview:
+    required_sections:
+      - "リサーチ目的"
+      - "リサーチ手法"
+      - "対象者"
+      - "スケジュール"
+    optional_sections:
+      - "予算"
+      - "倫理的配慮"
+    min_completion_score: 70
+
+  interview_guide:
+    required_sections:
+      - "インタビュー目的"
+      - "質問リスト"
+      - "プロトコル"
+      - "記録方法"
+    optional_sections:
+      - "同意書テンプレート"
+      - "フォローアップ計画"
+    min_completion_score: 70
+
+  recruiting_plan:
+    required_sections:
+      - "対象者ペルソナ"
+      - "リクルーティングチャネル"
+      - "スクリーニング基準"
+      - "インセンティブ"
+    optional_sections:
+      - "リクルーティングメッセージ"
+      - "スケジュール調整方法"
+    min_completion_score: 70
+
+  interview_analysis:
+    required_sections:
+      - "インサイト抽出"
+      - "パターン分析"
+      - "引用・実例"
+      - "推奨アクション"
+    optional_sections:
+      - "定量データ"
+      - "仮説検証結果"
+    min_completion_score: 75
+
+  research_summary:
+    required_sections:
+      - "リサーチ概要"
+      - "主要な発見"
+      - "推奨アクション"
+      - "次のステップ"
+    optional_sections:
+      - "詳細レポートリンク"
+      - "ステークホルダー向けサマリー"
+    min_completion_score: 75
+
+  hypothesis_backlog:
+    required_sections:
+      - "仮説一覧"
+      - "検証方法"
+      - "優先順位"
+      - "進捗ステータス"
+    optional_sections:
+      - "検証結果"
+      - "学習内容"
+    min_completion_score: 70
+
+# フェーズ2-B: リサーチ（Research）
+Research:
+  customer_research:
+    required_sections:
+      - "調査目的"
+      - "調査手法"
+      - "調査結果"
+      - "インサイト"
+    optional_sections:
+      - "生データ"
+      - "統計分析"
+    min_completion_score: 75
+
+  competitor_research:
+    required_sections:
+      - "競合一覧"
+      - "競合分析（強み・弱み）"
+      - "差別化ポイント"
+      - "市場ポジショニング"
+    optional_sections:
+      - "SWOT分析"
+      - "競合動向モニタリング"
+    min_completion_score: 75
+
+  desk_research:
+    required_sections:
+      - "調査トピック"
+      - "情報源"
+      - "調査結果サマリー"
+      - "インサイト"
+    optional_sections:
+      - "詳細データ"
+      - "参考文献"
+    min_completion_score: 70
+
+  market_size_estimation:
+    required_sections:
+      - "TAM（Total Addressable Market）"
+      - "SAM（Serviceable Available Market）"
+      - "SOM（Serviceable Obtainable Market）"
+      - "推定根拠"
+    optional_sections:
+      - "成長率予測"
+      - "市場セグメント分析"
+    min_completion_score: 75
+
+# フェーズ3: 計画（Planning）
+Planning:
+  wbs:
+    required_sections:
+      - "プロジェクト概要"
+      - "WBS構造"
+      - "ワークパッケージ定義"
+      - "成果物一覧"
+      - "依存関係"
+    optional_sections:
+      - "リソース配分"
+      - "コスト見積もり"
+    min_completion_score: 75
+
+  product_backlog:
+    required_sections:
+      - "バックログアイテム一覧"
+      - "優先順位"
+      - "受け入れ基準"
+      - "見積もり"
+    optional_sections:
+      - "エピック分類"
+      - "スプリント割り当て"
+    min_completion_score: 75
+
+  risk_plan:
+    required_sections:
+      - "リスク一覧"
+      - "影響度・発生確率"
+      - "緩和策"
+      - "対応責任者"
+    optional_sections:
+      - "コンティンジェンシープラン"
+      - "リスクモニタリング"
+    min_completion_score: 75
+
+  project_scope:
+    required_sections:
+      - "スコープ記述"
+      - "成果物"
+      - "除外事項"
+      - "前提条件"
+      - "制約事項"
+    optional_sections:
+      - "スコープベースライン"
+      - "変更管理プロセス"
+    min_completion_score: 75
+
+  prd:
+    required_sections:
+      - "プロダクト概要"
+      - "ターゲットユーザー"
+      - "機能要件"
+      - "非機能要件"
+      - "成功指標"
+    optional_sections:
+      - "技術スタック"
+      - "UI/UXガイドライン"
+    min_completion_score: 80
+
+  product_roadmap:
+    required_sections:
+      - "ロードマップ概要"
+      - "フェーズ定義"
+      - "マイルストーン"
+      - "タイムライン"
+    optional_sections:
+      - "リソース計画"
+      - "依存関係"
+    min_completion_score: 75
+
+# フェーズ4: 実行（Executing）
+Executing:
+  development_plan:
+    required_sections:
+      - "開発計画概要"
+      - "技術スタック"
+      - "アーキテクチャ"
+      - "開発環境"
+      - "デプロイメント戦略"
+    optional_sections:
+      - "CI/CDパイプライン"
+      - "監視・ロギング"
+    min_completion_score: 75
+
+  story_implementation:
+    required_sections:
+      - "ストーリー説明"
+      - "受け入れ基準"
+      - "実装詳細"
+      - "テスト計画"
+    optional_sections:
+      - "技術的負債"
+      - "リファクタリング計画"
+    min_completion_score: 70
+
+  sprint_goal:
+    required_sections:
+      - "スプリント目標"
+      - "スプリントバックログ"
+      - "完了の定義"
+      - "チーム体制"
+    optional_sections:
+      - "ベロシティ予測"
+      - "リスク"
+    min_completion_score: 70
+
+  daily_tasks:
+    required_sections:
+      - "本日のタスク一覧"
+      - "優先順位"
+      - "完了基準"
+    optional_sections:
+      - "ブロッカー"
+      - "明日の予定"
+    min_completion_score: 60
+
+# フェーズ5: 監視・コントロール（Monitoring）
+Monitoring:
+  status_report:
+    required_sections:
+      - "レポート期間"
+      - "進捗サマリー"
+      - "完了タスク"
+      - "課題・リスク"
+      - "次期アクション"
+    optional_sections:
+      - "KPI・メトリクス"
+      - "バーンダウンチャート"
+    min_completion_score: 75
+
+  change_request:
+    required_sections:
+      - "変更内容"
+      - "変更理由"
+      - "影響分析"
+      - "承認ステータス"
+    optional_sections:
+      - "代替案"
+      - "ロールバック計画"
+    min_completion_score: 75
+
+# フェーズ6: 終結（Closing）
+Closing:
+  lessons_learned:
+    required_sections:
+      - "プロジェクト概要"
+      - "成功事例"
+      - "課題・問題点"
+      - "改善提案"
+      - "次回への推奨事項"
+    optional_sections:
+      - "KPI実績"
+      - "チーム振り返り"
+    min_completion_score: 75
+
+  transition_document:
+    required_sections:
+      - "移行概要"
+      - "成果物一覧"
+      - "運用手順"
+      - "トレーニング計画"
+      - "サポート体制"
+    optional_sections:
+      - "FAQ"
+      - "トラブルシューティング"
+    min_completion_score: 75
+
+# グローバル設定
+global_settings:
+  default_min_score: 70
+  strict_mode: true  # 必須セクション未達成時は自動リプラン
+  allow_partial_completion: false  # 部分完成での移行を許可しない
+
+# スコアリングウェイト（Completion Judge Agentで使用）
+scoring_weights:
+  required_sections_present: 0.30  # 必須セクション存在（30点）
+  content_quality: 0.25             # コンテンツ品質（25点）
+  pmbok_compliance: 0.20            # PMBOK準拠度（20点）
+  evidence_quality: 0.15            # エビデンス品質（15点）
+  metadata_completeness: 0.10       # メタデータ完全性（10点）

@@ -1,0 +1,163 @@
+name: Claude PR Review
+
+# Week 7 Day 3-5: GitHub Action for automatic PR review with Claude Code
+# Triggered when @claude tag is detected in PR title, body, or comments
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+  issue_comment:
+    types: [created, edited]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  check-claude-tag:
+    name: Check for @claude tag
+    runs-on: ubuntu-latest
+    outputs:
+      should_review: ${{ steps.check.outputs.should_review }}
+      pr_number: ${{ steps.check.outputs.pr_number }}
+    steps:
+      - name: Check for @claude mention
+        id: check
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const shouldReview = false;
+            let prNumber = null;
+
+            // Check PR title and body
+            if (context.eventName === 'pull_request') {
+              const pr = context.payload.pull_request;
+              prNumber = pr.number;
+              const title = pr.title || '';
+              const body = pr.body || '';
+
+              if (title.includes('@claude') || body.includes('@claude')) {
+                core.setOutput('should_review', 'true');
+                core.setOutput('pr_number', prNumber.toString());
+                console.log(`Found @claude tag in PR #${prNumber}`);
+                return;
+              }
+            }
+
+            // Check issue comment (PR comment)
+            if (context.eventName === 'issue_comment') {
+              const comment = context.payload.comment;
+              const issue = context.payload.issue;
+
+              // Only process if it's a PR comment
+              if (issue.pull_request) {
+                prNumber = issue.number;
+                const commentBody = comment.body || '';
+
+                if (commentBody.includes('@claude')) {
+                  core.setOutput('should_review', 'true');
+                  core.setOutput('pr_number', prNumber.toString());
+                  console.log(`Found @claude tag in comment on PR #${prNumber}`);
+                  return;
+                }
+              }
+            }
+
+            core.setOutput('should_review', 'false');
+            core.setOutput('pr_number', '');
+            console.log('No @claude tag found');
+
+  claude-review:
+    name: Claude Code Review
+    needs: check-claude-tag
+    if: needs.check-claude-tag.outputs.should_review == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history for better context
+
+      - name: Checkout PR branch
+        env:
+          PR_NUMBER: ${{ needs.check-claude-tag.outputs.pr_number }}
+        run: |
+          gh pr checkout $PR_NUMBER
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r scripts/github_actions/requirements.txt
+
+      - name: Run Claude PR Review
+        id: review
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PR_NUMBER: ${{ needs.check-claude-tag.outputs.pr_number }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python scripts/github_actions/claude_pr_review.py
+
+      - name: Post review comment
+        if: steps.review.outputs.review_comment != ''
+        uses: actions/github-script@v7
+        env:
+          REVIEW_COMMENT: ${{ steps.review.outputs.review_comment }}
+        with:
+          script: |
+            const prNumber = parseInt('${{ needs.check-claude-tag.outputs.pr_number }}');
+            const reviewComment = process.env.REVIEW_COMMENT;
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+              body: reviewComment
+            });
+
+            console.log(`Posted review comment to PR #${prNumber}`);
+
+      - name: Update CLAUDE.md if new rules found
+        if: steps.review.outputs.new_rules != ''
+        env:
+          NEW_RULES: ${{ steps.review.outputs.new_rules }}
+        run: |
+          python scripts/github_actions/update_claude_md.py
+
+      - name: Commit CLAUDE.md updates
+        if: steps.review.outputs.new_rules != ''
+        run: |
+          git config user.name "claude-code-bot"
+          git config user.email "claude-code-bot@users.noreply.github.com"
+
+          if git diff --quiet CLAUDE.md; then
+            echo "No changes to CLAUDE.md"
+          else
+            git add CLAUDE.md
+            git commit -m 'docs: Update CLAUDE.md with new rules from PR review' \
+                       -m '' \
+                       -m '🤖 Generated with Claude Code' \
+                       -m '' \
+                       -m 'Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>'
+            git push
+          fi
+
+      - name: Notify completion
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const prNumber = parseInt('${{ needs.check-claude-tag.outputs.pr_number }}');
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+              body: '✅ Claude Code review completed. Check the comments above for details.'
+            });

@@ -1,0 +1,66 @@
+{
+  "name": "post-linkedin-to-threads",
+  "description": "LinkedIn投稿をThreadsスレッド形式に変換してLate API経由で予約投稿",
+  "version": "1.0.0",
+  "author": "Claude Code Agent",
+  "created": "2026-01-07",
+  "arguments": [
+    {
+      "name": "variant",
+      "description": "LinkedIn投稿バリアント（案1/案2/案3）",
+      "type": "string",
+      "default": "案2",
+      "required": false
+    },
+    {
+      "name": "input_file",
+      "description": "LinkedIn投稿ファイルパス",
+      "type": "string",
+      "default": "auto-detect",
+      "required": false
+    },
+    {
+      "name": "scheduled_date",
+      "description": "予約日付（YYYY-MM-DD形式、デフォルト: 翌利用可能日）",
+      "type": "string",
+      "default": "auto",
+      "required": false
+    },
+    {
+      "name": "scheduled_time",
+      "description": "予約時刻（HH:MM形式、デフォルト: 20:00）",
+      "type": "string",
+      "default": "20:00",
+      "required": false
+    }
+  ],
+  "dependencies": {
+    "python_packages": [
+      "requests",
+      "zoneinfo"
+    ],
+    "internal_modules": [
+      "scripts/late_api_post.py"
+    ],
+    "config_files": [
+      "config/late_api_config.json"
+    ]
+  },
+  "outputs": {
+    "type": "threads_scheduled_post",
+    "format": "json",
+    "fields": [
+      "post_id",
+      "scheduled_for",
+      "thread_count",
+      "total_characters"
+    ]
+  },
+  "tags": [
+    "threads",
+    "linkedin",
+    "social-media",
+    "late-api",
+    "automation"
+  ]
+}

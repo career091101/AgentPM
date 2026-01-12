@@ -1,0 +1,16 @@
+[2026-01-10 18:27:55] [INFO] === Auto Migration Started ===
+[2026-01-10 18:27:55] [INFO] Metadata JSON: /Users/yuichi/AIPM/aipm_v0/tests/workspace_auto_migration/Flow/202601/2026-01-10/metadata_invalid.json
+[2026-01-10 18:27:55] [INFO] Flow file: /Users/yuichi/AIPM/aipm_v0/tests/workspace_auto_migration/Flow/test.md
+[2026-01-10 18:27:55] [INFO] PMBOK Phase: null
+[2026-01-10 18:27:55] [INFO] Document type: null
+[2026-01-10 18:27:55] [INFO] Project ID: null
+[2026-01-10 18:27:55] [INFO] Step 1: Creating Git backup...
+[2026-01-10 18:27:56] [INFO] Backup tag recorded: [ralph-guga-generation 577106ad] Auto-save before migration: 2026-01-10 18:27:56
+ 4 files changed, 288 insertions(+)
+ create mode 100644 aipm_v0/PROMPT.md
+ create mode 100644 aipm_v0/logs/migration_20260110_182722/backup_tag.txt
+ create mode 100644 aipm_v0/logs/migration_20260110_182755/migration_log.txt
+pre-confirm-20260110-182755
+[2026-01-10 18:27:56] [INFO] Step 2: Resolving Stock path...
+[2026-01-10 18:27:56] [INFO] Stock path: 
+[2026-01-10 18:27:56] [ERROR] Invalid stock path: 

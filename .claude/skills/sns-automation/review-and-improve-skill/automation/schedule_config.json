@@ -1,0 +1,61 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-01-06",
+
+  "immediate_review": {
+    "enabled": true,
+    "description": "投稿生成直後に自動的にレビューを実行",
+    "auto_apply": false,
+    "priority": ["P0", "P1"],
+    "notification": {
+      "enabled": true,
+      "threshold_score": 70
+    }
+  },
+
+  "post_publication_review": {
+    "enabled": true,
+    "description": "予約投稿の指定日数後に自動的にレビューを実行",
+    "delay_days": 1,
+    "auto_apply": true,
+    "priority": ["P0", "P1"],
+    "notification": {
+      "enabled": true,
+      "threshold_score": 70
+    }
+  },
+
+  "notification": {
+    "enabled": true,
+    "method": "file",
+    "methods": {
+      "file": {
+        "enabled": true,
+        "output_dir": "Flow/notifications"
+      },
+      "slack": {
+        "enabled": false,
+        "webhook_url": "",
+        "channel": "#sns-review"
+      },
+      "email": {
+        "enabled": false,
+        "smtp_host": "",
+        "smtp_port": 587,
+        "from_address": "",
+        "to_addresses": []
+      }
+    }
+  },
+
+  "review_criteria": {
+    "quality_threshold": 70,
+    "critical_threshold": 50,
+    "auto_improvement_trigger": 70
+  },
+
+  "schedule_check": {
+    "cron_expression": "0 9 * * *",
+    "description": "毎日9時にスケジュールされたレビューを実行"
+  }
+}

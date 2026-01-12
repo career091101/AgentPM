@@ -1,0 +1,696 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created_date": "2026-01-09",
+    "description": "Chrome拡張MCPを使用したUIテスト検証シナリオの標準設定",
+    "total_scenarios": 5,
+    "execution_time_estimate_minutes": 10,
+    "quality_gate_score_threshold": 70
+  },
+  "scenarios": [
+    {
+      "id": "login_flow",
+      "name": "ログインフロー検証",
+      "description": "ログインページからダッシュボードへの遷移を検証",
+      "test_steps": [
+        {
+          "step_number": 1,
+          "action": "tabs_context_mcp",
+          "description": "MCPタブグループ取得",
+          "parameters": {
+            "createIfEmpty": true
+          }
+        },
+        {
+          "step_number": 2,
+          "action": "tabs_create_mcp",
+          "description": "新規テストタブ作成"
+        },
+        {
+          "step_number": 3,
+          "action": "resize_window",
+          "description": "デスクトップビューポート設定",
+          "parameters": {
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "step_number": 4,
+          "action": "navigate",
+          "description": "ログインページへ遷移",
+          "parameters": {
+            "url": "http://localhost:3000/login"
+          }
+        },
+        {
+          "step_number": 5,
+          "action": "computer.screenshot",
+          "description": "ログインページ初期表示"
+        },
+        {
+          "step_number": 6,
+          "action": "find",
+          "description": "メールアドレス入力欄を検索",
+          "parameters": {
+            "query": "email input field"
+          }
+        },
+        {
+          "step_number": 7,
+          "action": "form_input",
+          "description": "メールアドレス入力",
+          "parameters": {
+            "value": "test@example.com"
+          }
+        },
+        {
+          "step_number": 8,
+          "action": "find",
+          "description": "パスワード入力欄を検索",
+          "parameters": {
+            "query": "password input field"
+          }
+        },
+        {
+          "step_number": 9,
+          "action": "form_input",
+          "description": "パスワード入力",
+          "parameters": {
+            "value": "testpass123"
+          }
+        },
+        {
+          "step_number": 10,
+          "action": "find",
+          "description": "ログインボタンを検索",
+          "parameters": {
+            "query": "login button"
+          }
+        },
+        {
+          "step_number": 11,
+          "action": "computer.left_click",
+          "description": "ログインボタンをクリック"
+        },
+        {
+          "step_number": 12,
+          "action": "computer.wait",
+          "description": "認証処理待機",
+          "parameters": {
+            "duration": 5
+          }
+        },
+        {
+          "step_number": 13,
+          "action": "read_page",
+          "description": "ダッシュボード要素確認",
+          "parameters": {
+            "filter": "all",
+            "depth": 12
+          }
+        },
+        {
+          "step_number": 14,
+          "action": "computer.screenshot",
+          "description": "ダッシュボード表示"
+        }
+      ],
+      "chrome_mcp_tools": [
+        "tabs_context_mcp",
+        "tabs_create_mcp",
+        "resize_window",
+        "navigate",
+        "computer",
+        "find",
+        "form_input",
+        "read_page"
+      ],
+      "success_criteria": [
+        {
+          "name": "ページ遷移成功",
+          "check": "ダッシュボード要素が含まれている",
+          "points": 20
+        },
+        {
+          "name": "フォーム入力成功",
+          "check": "メール・パスワードが正しく入力された",
+          "points": 15
+        },
+        {
+          "name": "ボタンクリック成功",
+          "check": "ログインボタンのクリックが成功",
+          "points": 10
+        },
+        {
+          "name": "エラーメッセージ非表示",
+          "check": "エラーメッセージが表示されていない",
+          "points": 15
+        },
+        {
+          "name": "ビジュアル品質",
+          "check": "レイアウトが正しく表示されている",
+          "points": 25
+        },
+        {
+          "name": "レスポンス時間",
+          "check": "30秒以内に完了",
+          "points": 15
+        }
+      ],
+      "timeout_ms": 60000,
+      "score_weight": 20
+    },
+    {
+      "id": "form_validation",
+      "name": "フォームバリデーション検証",
+      "description": "複数フィールドのフォームバリデーション機能を検証",
+      "test_steps": [
+        {
+          "step_number": 1,
+          "action": "navigate",
+          "description": "フォームページへ遷移",
+          "parameters": {
+            "url": "http://localhost:3000/settings/profile-edit"
+          }
+        },
+        {
+          "step_number": 2,
+          "action": "computer.screenshot",
+          "description": "フォーム初期状態"
+        },
+        {
+          "step_number": 3,
+          "action": "find",
+          "description": "名前入力欄を検索",
+          "parameters": {
+            "query": "name field"
+          }
+        },
+        {
+          "step_number": 4,
+          "action": "form_input",
+          "description": "名前を空で入力（エラー確認）",
+          "parameters": {
+            "value": ""
+          }
+        },
+        {
+          "step_number": 5,
+          "action": "find",
+          "description": "送信ボタンを検索",
+          "parameters": {
+            "query": "submit button"
+          }
+        },
+        {
+          "step_number": 6,
+          "action": "computer.left_click",
+          "description": "送信ボタンをクリック"
+        },
+        {
+          "step_number": 7,
+          "action": "read_page",
+          "description": "バリデーションエラーメッセージ確認",
+          "parameters": {
+            "filter": "all",
+            "depth": 10
+          }
+        },
+        {
+          "step_number": 8,
+          "action": "computer.screenshot",
+          "description": "バリデーションエラー表示"
+        },
+        {
+          "step_number": 9,
+          "action": "find",
+          "description": "メール入力欄を検索",
+          "parameters": {
+            "query": "email field"
+          }
+        },
+        {
+          "step_number": 10,
+          "action": "form_input",
+          "description": "無効なメールアドレス入力",
+          "parameters": {
+            "value": "invalid-email"
+          }
+        },
+        {
+          "step_number": 11,
+          "action": "computer.left_click",
+          "description": "送信ボタンを再度クリック"
+        },
+        {
+          "step_number": 12,
+          "action": "read_page",
+          "description": "メール形式エラー確認"
+        },
+        {
+          "step_number": 13,
+          "action": "computer.screenshot",
+          "description": "メール形式エラー表示"
+        }
+      ],
+      "chrome_mcp_tools": [
+        "navigate",
+        "computer",
+        "find",
+        "form_input",
+        "read_page"
+      ],
+      "success_criteria": [
+        {
+          "name": "必須フィールドエラー表示",
+          "check": "空欄時にエラーメッセージが表示される",
+          "points": 25
+        },
+        {
+          "name": "メール形式チェック",
+          "check": "無効なメールアドレスがエラーになる",
+          "points": 25
+        },
+        {
+          "name": "エラーメッセージ明確性",
+          "check": "ユーザーフレンドリーなエラー表示",
+          "points": 20
+        },
+        {
+          "name": "フォーム送信成功",
+          "check": "有効な値で送信が成功する",
+          "points": 20
+        },
+        {
+          "name": "レスポンス時間",
+          "check": "40秒以内に完了",
+          "points": 10
+        }
+      ],
+      "timeout_ms": 80000,
+      "score_weight": 20
+    },
+    {
+      "id": "responsive_design",
+      "name": "レスポンシブデザイン検証",
+      "description": "複数のビューポートサイズでレイアウトが正しく表示されることを検証",
+      "test_steps": [
+        {
+          "step_number": 1,
+          "action": "navigate",
+          "description": "テストページへ遷移",
+          "parameters": {
+            "url": "http://localhost:3000/dashboard"
+          }
+        },
+        {
+          "step_number": 2,
+          "action": "resize_window",
+          "description": "モバイルサイズに設定",
+          "parameters": {
+            "width": 375,
+            "height": 667
+          }
+        },
+        {
+          "step_number": 3,
+          "action": "computer.screenshot",
+          "description": "モバイル表示"
+        },
+        {
+          "step_number": 4,
+          "action": "resize_window",
+          "description": "タブレットサイズに設定",
+          "parameters": {
+            "width": 768,
+            "height": 1024
+          }
+        },
+        {
+          "step_number": 5,
+          "action": "computer.screenshot",
+          "description": "タブレット表示"
+        },
+        {
+          "step_number": 6,
+          "action": "resize_window",
+          "description": "デスクトップサイズに設定",
+          "parameters": {
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "step_number": 7,
+          "action": "computer.screenshot",
+          "description": "デスクトップ表示"
+        }
+      ],
+      "chrome_mcp_tools": [
+        "navigate",
+        "resize_window",
+        "computer"
+      ],
+      "success_criteria": [
+        {
+          "name": "モバイルレイアウト",
+          "check": "375px幅で正しくレイアウトされている",
+          "points": 35
+        },
+        {
+          "name": "タブレットレイアウト",
+          "check": "768px幅で正しくレイアウトされている",
+          "points": 30
+        },
+        {
+          "name": "デスクトップレイアウト",
+          "check": "1920px幅で正しくレイアウトされている",
+          "points": 25
+        },
+        {
+          "name": "レイアウト崩れなし",
+          "check": "すべてのサイズで要素が重ならない",
+          "points": 10
+        }
+      ],
+      "timeout_ms": 70000,
+      "score_weight": 20
+    },
+    {
+      "id": "keyboard_navigation",
+      "name": "キーボードナビゲーション検証",
+      "description": "キーボード操作でフォームとUIをナビゲーション可能であることを検証",
+      "test_steps": [
+        {
+          "step_number": 1,
+          "action": "navigate",
+          "description": "フォームページへ遷移",
+          "parameters": {
+            "url": "http://localhost:3000/settings/profile-edit"
+          }
+        },
+        {
+          "step_number": 2,
+          "action": "computer.screenshot",
+          "description": "フォーム初期状態"
+        },
+        {
+          "step_number": 3,
+          "action": "computer.key",
+          "description": "Tabキーでフォーカス移動",
+          "parameters": {
+            "text": "Tab"
+          }
+        },
+        {
+          "step_number": 4,
+          "action": "computer.screenshot",
+          "description": "1番目のフィールドにフォーカス"
+        },
+        {
+          "step_number": 5,
+          "action": "computer.type",
+          "description": "名前を入力",
+          "parameters": {
+            "text": "田中太郎"
+          }
+        },
+        {
+          "step_number": 6,
+          "action": "computer.key",
+          "description": "次のフィールドへTabキー移動",
+          "parameters": {
+            "text": "Tab"
+          }
+        },
+        {
+          "step_number": 7,
+          "action": "computer.screenshot",
+          "description": "2番目のフィールドにフォーカス"
+        },
+        {
+          "step_number": 8,
+          "action": "computer.type",
+          "description": "メールアドレスを入力",
+          "parameters": {
+            "text": "test@example.com"
+          }
+        },
+        {
+          "step_number": 9,
+          "action": "computer.key",
+          "description": "送信ボタンへTabキー移動",
+          "parameters": {
+            "text": "Tab"
+          }
+        },
+        {
+          "step_number": 10,
+          "action": "computer.key",
+          "description": "Enterキーで送信",
+          "parameters": {
+            "text": "Return"
+          }
+        },
+        {
+          "step_number": 11,
+          "action": "computer.wait",
+          "description": "送信処理待機",
+          "parameters": {
+            "duration": 3
+          }
+        },
+        {
+          "step_number": 12,
+          "action": "read_page",
+          "description": "成功メッセージ確認"
+        },
+        {
+          "step_number": 13,
+          "action": "computer.screenshot",
+          "description": "送信完了表示"
+        }
+      ],
+      "chrome_mcp_tools": [
+        "navigate",
+        "computer"
+      ],
+      "success_criteria": [
+        {
+          "name": "Tabキーでフォーカス移動",
+          "check": "Tabキーで順番にフォーカスが移動する",
+          "points": 30
+        },
+        {
+          "name": "キーボードでテキスト入力",
+          "check": "キーボードで各フィールドに入力できる",
+          "points": 25
+        },
+        {
+          "name": "Enterキーで送信",
+          "check": "Enter キーでフォームが送信される",
+          "points": 25
+        },
+        {
+          "name": "フォーカス表示",
+          "check": "フォーカスされた要素が視覚的に識別できる",
+          "points": 20
+        }
+      ],
+      "timeout_ms": 60000,
+      "score_weight": 20
+    },
+    {
+      "id": "error_handling",
+      "name": "エラーハンドリング検証",
+      "description": "エラー発生時に適切なメッセージ表示とリカバリー手段が提供されることを検証",
+      "test_steps": [
+        {
+          "step_number": 1,
+          "action": "navigate",
+          "description": "ダッシュボードへ遷移",
+          "parameters": {
+            "url": "http://localhost:3000/dashboard"
+          }
+        },
+        {
+          "step_number": 2,
+          "action": "computer.screenshot",
+          "description": "正常状態"
+        },
+        {
+          "step_number": 3,
+          "action": "find",
+          "description": "データ読み込みボタンを検索",
+          "parameters": {
+            "query": "load data button"
+          }
+        },
+        {
+          "step_number": 4,
+          "action": "javascript_tool",
+          "description": "APIエラーをシミュレート",
+          "parameters": {
+            "text": "window.mockApiError = true; fetch = new Proxy(fetch, { apply: (target, thisArg, args) => { if(window.mockApiError) return Promise.reject(new Error('API Error: 500')); return Reflect.apply(target, thisArg, args); }});"
+          }
+        },
+        {
+          "step_number": 5,
+          "action": "computer.left_click",
+          "description": "データ読み込みボタンをクリック"
+        },
+        {
+          "step_number": 6,
+          "action": "computer.wait",
+          "description": "エラー処理待機",
+          "parameters": {
+            "duration": 2
+          }
+        },
+        {
+          "step_number": 7,
+          "action": "read_page",
+          "description": "エラーメッセージ表示確認"
+        },
+        {
+          "step_number": 8,
+          "action": "computer.screenshot",
+          "description": "エラー表示状態"
+        },
+        {
+          "step_number": 9,
+          "action": "find",
+          "description": "リトライボタンを検索",
+          "parameters": {
+            "query": "retry button or try again button"
+          }
+        },
+        {
+          "step_number": 10,
+          "action": "javascript_tool",
+          "description": "エラーシミュレーション解除",
+          "parameters": {
+            "text": "window.mockApiError = false;"
+          }
+        },
+        {
+          "step_number": 11,
+          "action": "computer.left_click",
+          "description": "リトライボタンをクリック"
+        },
+        {
+          "step_number": 12,
+          "action": "computer.wait",
+          "description": "再試行処理待機",
+          "parameters": {
+            "duration": 3
+          }
+        },
+        {
+          "step_number": 13,
+          "action": "read_page",
+          "description": "エラー解除確認"
+        },
+        {
+          "step_number": 14,
+          "action": "computer.screenshot",
+          "description": "リトライ成功表示"
+        }
+      ],
+      "chrome_mcp_tools": [
+        "navigate",
+        "computer",
+        "find",
+        "javascript_tool",
+        "read_page"
+      ],
+      "success_criteria": [
+        {
+          "name": "エラーメッセージ表示",
+          "check": "エラー発生時に明確なメッセージが表示される",
+          "points": 25
+        },
+        {
+          "name": "エラーメッセージ内容",
+          "check": "ユーザーフレンドリーなメッセージである",
+          "points": 20
+        },
+        {
+          "name": "リトライボタン表示",
+          "check": "リトライボタンが表示される",
+          "points": 20
+        },
+        {
+          "name": "リトライ機能動作",
+          "check": "リトライ後に正常に動作する",
+          "points": 25
+        },
+        {
+          "name": "JavaScript エラーなし",
+          "check": "致命的なJavaScriptエラーが発生していない",
+          "points": 10
+        }
+      ],
+      "timeout_ms": 90000,
+      "score_weight": 20
+    }
+  ],
+  "execution_guidelines": {
+    "parallel_execution": {
+      "enabled": true,
+      "max_parallel_scenarios": 3,
+      "description": "5シナリオを3並列で実行可能"
+    },
+    "sequential_execution": {
+      "required_scenarios": ["login_flow"],
+      "reason": "ログインが他のシナリオの前提条件"
+    },
+    "environment_setup": {
+      "steps": [
+        "Chrome拡張MCPの認証確認",
+        "テスト環境サーバー起動確認",
+        "テストアカウント・データの初期化"
+      ]
+    }
+  },
+  "scoring_summary": {
+    "total_scenarios": 5,
+    "total_possible_points": 500,
+    "passing_threshold_per_scenario": 70,
+    "overall_passing_threshold": 350,
+    "quality_gates": {
+      "high_quality": {
+        "score_range": [420, 500],
+        "label": "優秀",
+        "action": "本番環境への統合推奨"
+      },
+      "acceptable": {
+        "score_range": [350, 419],
+        "label": "合格",
+        "action": "統合OK、改善点を記録"
+      },
+      "needs_improvement": {
+        "score_range": [0, 349],
+        "label": "要改善",
+        "action": "UI修正後に再検証"
+      }
+    }
+  },
+  "output_configuration": {
+    "screenshot_storage": {
+      "base_path": "Flow/YYYYMM/YYYY-MM-DD/ui_verification/screenshots/",
+      "naming_convention": "{scenario_id}_{step_number}_{description}.jpeg",
+      "retention_period_days": 30
+    },
+    "report_output": {
+      "format": "Markdown + JSON",
+      "output_files": [
+        "ui_verification_report.md",
+        "ui_verification_scores.json",
+        "ui_verification_evidence/"
+      ],
+      "path": "Flow/YYYYMM/YYYY-MM-DD/ui_verification/"
+    }
+  }
+}

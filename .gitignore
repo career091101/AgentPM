@@ -1,0 +1,62 @@
+# =================================================
+# General Directory .gitignore
+# Note: Common files (*.log, .DS_Store, etc.)
+#       are handled by global gitignore
+# =================================================
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# Cache
+.cache/
+*.cache
+
+# Personal/private content
+personal/
+private/
+*.secret
+
+# Environment variables (API keys, tokens, secrets)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Credentials (GCP service account keys, API credentials)
+credentials/
+*.json (service account keys)
+
+# Project-specific
+scripts/x_scraper_user_data/
+*.log
+enricher_execution.log
+__pycache__/
+
+# Large files
+エリオット波動研究.pdf
+
+# System & Environment
+.DS_Store
+venv/
+node_modules/
+.vite/
+dist/
+*.pyc
+__pycache__/
+.gemini/
+
+# Backup Files & Directories (added 2026-01-10)
+*.backup
+*.backup.*
+*.bak
+*_backup
+*_backup/
+*_backup_*/
+*backup*/
+*merge_backup*/
+*_before_merge/
+*_temp/
+*_tmp/
+*_work/

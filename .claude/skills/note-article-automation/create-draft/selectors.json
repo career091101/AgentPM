@@ -1,0 +1,228 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-01-08",
+  "platform": "note.com",
+  "description": "Note.com記事投稿ページのUI要素セレクタ定義",
+  "pages": {
+    "new_article": {
+      "url_pattern": "https://note.com/new",
+      "elements": {
+        "title_input": {
+          "description": "記事タイトル入力欄",
+          "selectors": [
+            "input[placeholder*='タイトル']",
+            ".note-title-input",
+            "[data-testid='title-input']",
+            "input[name='title']"
+          ],
+          "fallback_query": "記事タイトル入力欄"
+        },
+        "body_editor": {
+          "description": "本文エディタ（リッチテキスト）",
+          "selectors": [
+            ".ProseMirror",
+            "[contenteditable='true']",
+            ".note-editor",
+            "[data-testid='body-editor']"
+          ],
+          "fallback_query": "本文入力エリア"
+        },
+        "save_draft_button": {
+          "description": "下書き保存ボタン",
+          "selectors": [
+            "button:contains('下書き保存')",
+            "button:contains('下書き')",
+            ".save-draft-button",
+            "[data-testid='save-draft']"
+          ],
+          "fallback_query": "下書き保存ボタン"
+        },
+        "publish_button": {
+          "description": "公開ボタン",
+          "selectors": [
+            "button:contains('公開')",
+            ".publish-button",
+            "[data-testid='publish']"
+          ],
+          "fallback_query": "公開ボタン"
+        },
+        "preview_button": {
+          "description": "プレビューボタン",
+          "selectors": [
+            "button:contains('プレビュー')",
+            ".preview-button",
+            "[data-testid='preview']"
+          ],
+          "fallback_query": "プレビューボタン"
+        }
+      }
+    },
+    "edit_article": {
+      "url_pattern": "https://note.com/draft/*",
+      "elements": {
+        "title_input": {
+          "description": "記事タイトル入力欄（編集時）",
+          "selectors": [
+            "input[placeholder*='タイトル']",
+            ".note-title-input",
+            "[data-testid='title-input']"
+          ],
+          "fallback_query": "記事タイトル入力欄"
+        },
+        "body_editor": {
+          "description": "本文エディタ（編集時）",
+          "selectors": [
+            ".ProseMirror",
+            "[contenteditable='true']",
+            ".note-editor"
+          ],
+          "fallback_query": "本文入力エリア"
+        },
+        "image_upload_button": {
+          "description": "画像アップロードボタン",
+          "selectors": [
+            "button[aria-label*='画像']",
+            ".image-upload-button",
+            "[data-testid='image-upload']",
+            "button:contains('画像')"
+          ],
+          "fallback_query": "画像アップロードボタン"
+        },
+        "image_input": {
+          "description": "画像ファイル入力（非表示）",
+          "selectors": [
+            "input[type='file'][accept*='image']",
+            ".image-file-input",
+            "[data-testid='image-input']"
+          ],
+          "fallback_query": "画像ファイル入力"
+        },
+        "update_draft_button": {
+          "description": "下書き更新ボタン",
+          "selectors": [
+            "button:contains('更新')",
+            "button:contains('保存')",
+            ".update-draft-button"
+          ],
+          "fallback_query": "下書き更新ボタン"
+        }
+      }
+    },
+    "publish_settings": {
+      "url_pattern": "https://note.com/draft/*/publish",
+      "elements": {
+        "eye_catch_upload": {
+          "description": "アイキャッチ画像アップロード",
+          "selectors": [
+            ".eye-catch-upload",
+            "[data-testid='eye-catch-upload']",
+            "button:contains('アイキャッチ')"
+          ],
+          "fallback_query": "アイキャッチ画像アップロード"
+        },
+        "hashtag_input": {
+          "description": "ハッシュタグ入力",
+          "selectors": [
+            "input[placeholder*='タグ']",
+            "input[placeholder*='ハッシュタグ']",
+            ".hashtag-input",
+            "[data-testid='hashtag-input']"
+          ],
+          "fallback_query": "ハッシュタグ入力"
+        },
+        "price_input": {
+          "description": "価格設定入力",
+          "selectors": [
+            "input[type='number'][name*='price']",
+            ".price-input",
+            "[data-testid='price-input']"
+          ],
+          "fallback_query": "価格設定"
+        },
+        "free_area_toggle": {
+          "description": "無料エリア設定トグル",
+          "selectors": [
+            "input[type='checkbox'][name*='free']",
+            ".free-area-toggle",
+            "[data-testid='free-area-toggle']"
+          ],
+          "fallback_query": "無料エリア設定"
+        },
+        "confirm_publish_button": {
+          "description": "公開確定ボタン",
+          "selectors": [
+            "button:contains('公開する')",
+            "button:contains('投稿する')",
+            ".confirm-publish-button",
+            "[data-testid='confirm-publish']"
+          ],
+          "fallback_query": "公開確定ボタン"
+        }
+      }
+    },
+    "login": {
+      "url_pattern": "https://note.com/login",
+      "elements": {
+        "email_input": {
+          "description": "メールアドレス入力",
+          "selectors": [
+            "input[type='email']",
+            "input[name='email']",
+            "[data-testid='email-input']"
+          ],
+          "fallback_query": "メールアドレス入力"
+        },
+        "password_input": {
+          "description": "パスワード入力",
+          "selectors": [
+            "input[type='password']",
+            "input[name='password']",
+            "[data-testid='password-input']"
+          ],
+          "fallback_query": "パスワード入力"
+        },
+        "login_button": {
+          "description": "ログインボタン",
+          "selectors": [
+            "button[type='submit']",
+            "button:contains('ログイン')",
+            "[data-testid='login-button']"
+          ],
+          "fallback_query": "ログインボタン"
+        }
+      }
+    }
+  },
+  "common": {
+    "loading_indicator": {
+      "description": "ローディング表示",
+      "selectors": [
+        ".loading",
+        ".spinner",
+        "[data-testid='loading']"
+      ]
+    },
+    "success_toast": {
+      "description": "成功通知",
+      "selectors": [
+        ".toast-success",
+        ".notification-success",
+        "[data-testid='success-toast']"
+      ]
+    },
+    "error_toast": {
+      "description": "エラー通知",
+      "selectors": [
+        ".toast-error",
+        ".notification-error",
+        "[data-testid='error-toast']"
+      ]
+    }
+  },
+  "notes": {
+    "selector_priority": "セレクタは配列の順序で試行。最初にマッチしたものを使用。",
+    "fallback_strategy": "すべてのセレクタが失敗した場合、fallback_queryでfind()を実行。",
+    "update_frequency": "Note.comのUI更新時にセレクタを確認・更新が必要。",
+    "testing": "新規セレクタ追加時は必ず実環境でテストすること。"
+  }
+}

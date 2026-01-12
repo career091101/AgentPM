@@ -1,0 +1,16 @@
+[2026-01-10 11:56:43] [INFO] === Auto Migration Started ===
+[2026-01-10 11:56:43] [INFO] Metadata JSON: /Users/yuichi/AIPM/aipm_v0/tests/workspace_auto_migration/Flow/202601/2026-01-10/metadata_project_charter.json
+[2026-01-10 11:56:43] [INFO] Flow file: /Users/yuichi/AIPM/aipm_v0/Flow/202601/2026-01-10/draft_project_charter.md
+[2026-01-10 11:56:43] [INFO] PMBOK Phase: Initiating
+[2026-01-10 11:56:43] [INFO] Document type: project_charter
+[2026-01-10 11:56:43] [INFO] Project ID: test-project
+[2026-01-10 11:56:43] [INFO] Step 1: Creating Git backup...
+[2026-01-10 11:56:44] [INFO] Backup tag recorded: [main c219bf50] Auto-save before migration: 2026-01-10 11:56:44
+ 3 files changed, 145 insertions(+)
+ create mode 100644 aipm_v0/logs/migration_20260110_115616/backup_tag.txt
+ create mode 100644 aipm_v0/logs/migration_20260110_115643/migration_log.txt
+pre-confirm-20260110-115643
+[2026-01-10 11:56:44] [INFO] Step 2: Resolving Stock path...
+[2026-01-10 11:56:44] [INFO] Stock path: Stock/programs/test-project/documents/initiating/project_charter.md
+[2026-01-10 11:56:44] [INFO] Step 3: Ensuring project directories...
+[2026-01-10 11:56:44] [INFO] Step 4: Handling conflicts...

@@ -1,0 +1,1 @@
+Conflict: Stock/programs/test-project/documents/initiating/project_charter.md → Stock/programs/test-project/documents/initiating/_versions/project_charter_20260110_115732.md

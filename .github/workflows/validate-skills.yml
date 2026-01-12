@@ -1,0 +1,95 @@
+name: Validate ForStartup Skills
+
+on:
+  push:
+    paths:
+      - '.claude/skills/for_startup/**'
+  pull_request:
+    paths:
+      - '.claude/skills/for_startup/**'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Validate YAML frontmatter
+        id: validate_yaml
+        run: python scripts/validate_skills.py
+        continue-on-error: true
+
+      - name: Check ForRecruit remnants
+        id: check_remnants
+        run: |
+          if grep -r "ForRecruit" .claude/skills/for_startup/ --include="*.md" --include="*.yaml" --include="*.yml" 2>/dev/null; then
+            echo "errors=ForRecruit remnants found!" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+        continue-on-error: true
+
+      - name: Comment on PR
+        if: github.event_name == 'pull_request' && (steps.validate_yaml.outcome == 'failure' || steps.check_remnants.outcome == 'failure')
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const reportPath = 'validation_report.json';
+
+            let report = {};
+            if (fs.existsSync(reportPath)) {
+              report = JSON.parse(fs.readFileSync(reportPath, 'utf8'));
+            }
+
+            let comment = '## ForStartup Skills Validation Report\n\n';
+            comment += '### Validation Results\n\n';
+
+            if (report.errors && report.errors.length > 0) {
+              comment += '❌ **Validation Errors Found**\n\n';
+              report.errors.forEach(error => {
+                comment += `- **${error.file}**: ${error.message}\n`;
+              });
+            } else {
+              comment += '✅ **All validations passed!**\n\n';
+            }
+
+            if (report.warnings && report.warnings.length > 0) {
+              comment += '\n### Warnings\n\n';
+              report.warnings.forEach(warning => {
+                comment += `- **${warning.file}**: ${warning.message}\n`;
+              });
+            }
+
+            if (report.summary) {
+              comment += '\n### Summary\n\n';
+              comment += `- Total files scanned: ${report.summary.total_files}\n`;
+              comment += `- Valid files: ${report.summary.valid_files}\n`;
+              comment += `- Invalid files: ${report.summary.invalid_files}\n`;
+            }
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });
+
+      - name: Fail if validation errors
+        if: steps.validate_yaml.outcome == 'failure' || steps.check_remnants.outcome == 'failure'
+        run: |
+          echo "Validation failed. Please review the validation report."
+          exit 1

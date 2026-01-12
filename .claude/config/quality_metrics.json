@@ -1,0 +1,341 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "title": "Quality Metrics Configuration",
+  "description": "Compounding Engineering品質指標定義（Week 8実装）",
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-04",
+
+  "metrics": {
+    "code_quality": {
+      "description": "コード品質指標",
+      "weight": 0.3,
+      "indicators": [
+        {
+          "name": "code_coverage",
+          "displayName": "コードカバレッジ",
+          "type": "percentage",
+          "target": 80,
+          "minimum": 60,
+          "excellent": 90,
+          "tools": ["pytest-cov", "coverage.py"],
+          "command": "pytest --cov=. --cov-report=json",
+          "resultPath": "coverage.json",
+          "scoreFormula": "(actual / target) * 100"
+        },
+        {
+          "name": "cyclomatic_complexity",
+          "displayName": "循環的複雑度",
+          "type": "average",
+          "target": 10,
+          "minimum": 15,
+          "excellent": 5,
+          "tools": ["radon", "mccabe"],
+          "command": "radon cc . -a -s --json",
+          "resultPath": "radon_cc.json",
+          "scoreFormula": "max(0, 100 - (actual - target) * 10)",
+          "note": "低いほど良い（逆スコア）"
+        },
+        {
+          "name": "maintainability_index",
+          "displayName": "保守性指数",
+          "type": "average",
+          "target": 70,
+          "minimum": 50,
+          "excellent": 85,
+          "tools": ["radon"],
+          "command": "radon mi . --json",
+          "resultPath": "radon_mi.json",
+          "scoreFormula": "(actual / target) * 100"
+        },
+        {
+          "name": "code_duplication",
+          "displayName": "コード重複率",
+          "type": "percentage",
+          "target": 5,
+          "minimum": 10,
+          "excellent": 2,
+          "tools": ["pylint", "jscpd"],
+          "command": "jscpd . --format json --output ./jscpd-report.json",
+          "resultPath": "jscpd-report.json",
+          "scoreFormula": "max(0, 100 - actual * 10)",
+          "note": "低いほど良い（逆スコア）"
+        }
+      ]
+    },
+
+    "documentation_quality": {
+      "description": "ドキュメント品質指標",
+      "weight": 0.25,
+      "indicators": [
+        {
+          "name": "documentation_completeness",
+          "displayName": "ドキュメント完全性",
+          "type": "percentage",
+          "target": 90,
+          "minimum": 70,
+          "excellent": 95,
+          "checkpoints": [
+            "README.md存在",
+            "CLAUDE.md存在",
+            "setup手順記載",
+            "使用例記載",
+            "トラブルシューティング記載",
+            "API/関数ドキュメント",
+            "アーキテクチャ図",
+            "変更履歴（CHANGELOG.md）"
+          ],
+          "scoreFormula": "(completedCheckpoints / totalCheckpoints) * 100"
+        },
+        {
+          "name": "docstring_coverage",
+          "displayName": "Docstringカバレッジ",
+          "type": "percentage",
+          "target": 80,
+          "minimum": 60,
+          "excellent": 90,
+          "tools": ["interrogate"],
+          "command": "interrogate . --quiet --output interrogate_report.json",
+          "resultPath": "interrogate_report.json",
+          "scoreFormula": "(actual / target) * 100"
+        },
+        {
+          "name": "documentation_freshness",
+          "displayName": "ドキュメント鮮度",
+          "type": "days_since_update",
+          "target": 30,
+          "minimum": 90,
+          "excellent": 14,
+          "scoreFormula": "max(0, 100 - (actual - target) * 2)",
+          "note": "最終更新日からの経過日数（低いほど良い）"
+        }
+      ]
+    },
+
+    "test_quality": {
+      "description": "テスト品質指標",
+      "weight": 0.2,
+      "indicators": [
+        {
+          "name": "test_count",
+          "displayName": "テスト数",
+          "type": "count",
+          "target": 100,
+          "minimum": 50,
+          "excellent": 200,
+          "command": "pytest --collect-only --quiet",
+          "scoreFormula": "(actual / target) * 100"
+        },
+        {
+          "name": "test_pass_rate",
+          "displayName": "テスト成功率",
+          "type": "percentage",
+          "target": 100,
+          "minimum": 95,
+          "excellent": 100,
+          "command": "pytest --json-report --json-report-file=pytest_report.json",
+          "resultPath": "pytest_report.json",
+          "scoreFormula": "(passed / total) * 100"
+        },
+        {
+          "name": "test_execution_time",
+          "displayName": "テスト実行時間",
+          "type": "seconds",
+          "target": 60,
+          "minimum": 180,
+          "excellent": 30,
+          "scoreFormula": "max(0, 100 - (actual - target) / 2)",
+          "note": "低いほど良い（逆スコア）"
+        }
+      ]
+    },
+
+    "security_quality": {
+      "description": "セキュリティ品質指標",
+      "weight": 0.15,
+      "indicators": [
+        {
+          "name": "security_vulnerabilities",
+          "displayName": "セキュリティ脆弱性",
+          "type": "count",
+          "target": 0,
+          "minimum": 5,
+          "excellent": 0,
+          "severity_weights": {
+            "critical": 100,
+            "high": 50,
+            "medium": 10,
+            "low": 1
+          },
+          "tools": ["bandit", "safety", "npm audit"],
+          "command": "bandit -r . -f json -o bandit_report.json",
+          "resultPath": "bandit_report.json",
+          "scoreFormula": "max(0, 100 - weighted_count * 5)",
+          "note": "重み付けカウント（critical=100, high=50, medium=10, low=1）"
+        },
+        {
+          "name": "dependency_freshness",
+          "displayName": "依存関係の鮮度",
+          "type": "outdated_count",
+          "target": 0,
+          "minimum": 10,
+          "excellent": 0,
+          "tools": ["pip list --outdated", "npm outdated"],
+          "scoreFormula": "max(0, 100 - actual * 5)"
+        }
+      ]
+    },
+
+    "git_quality": {
+      "description": "Git品質指標",
+      "weight": 0.1,
+      "indicators": [
+        {
+          "name": "commit_frequency",
+          "displayName": "コミット頻度",
+          "type": "commits_per_week",
+          "target": 20,
+          "minimum": 5,
+          "excellent": 30,
+          "command": "git log --since='1 week ago' --oneline | wc -l",
+          "scoreFormula": "(actual / target) * 100"
+        },
+        {
+          "name": "commit_message_quality",
+          "displayName": "コミットメッセージ品質",
+          "type": "percentage",
+          "target": 90,
+          "minimum": 70,
+          "excellent": 95,
+          "criteria": [
+            "先頭に型プレフィックス（feat:, fix:, docs:等）",
+            "50文字以内のサマリー",
+            "本文がある場合は72文字で折り返し",
+            "Issueリンク記載"
+          ],
+          "scoreFormula": "(qualified_commits / total_commits) * 100"
+        },
+        {
+          "name": "branch_staleness",
+          "displayName": "ブランチの古さ",
+          "type": "stale_branch_count",
+          "target": 0,
+          "minimum": 5,
+          "excellent": 0,
+          "threshold_days": 30,
+          "command": "git for-each-ref --sort=-committerdate refs/heads/ --format='%(committerdate:relative)|%(refname:short)'",
+          "scoreFormula": "max(0, 100 - actual * 10)",
+          "note": "30日以上更新がないブランチ数"
+        }
+      ]
+    }
+  },
+
+  "scoring": {
+    "overall": {
+      "formula": "weighted_average",
+      "description": "各カテゴリのスコアを重み付け平均",
+      "ranges": {
+        "excellent": {
+          "min": 90,
+          "max": 100,
+          "label": "優秀",
+          "color": "green",
+          "action": "現状維持"
+        },
+        "good": {
+          "min": 75,
+          "max": 89,
+          "label": "良好",
+          "color": "blue",
+          "action": "継続改善"
+        },
+        "acceptable": {
+          "min": 60,
+          "max": 74,
+          "label": "許容",
+          "color": "yellow",
+          "action": "改善計画策定"
+        },
+        "needs_improvement": {
+          "min": 40,
+          "max": 59,
+          "label": "要改善",
+          "color": "orange",
+          "action": "優先改善"
+        },
+        "critical": {
+          "min": 0,
+          "max": 39,
+          "label": "危機的",
+          "color": "red",
+          "action": "緊急対応"
+        }
+      }
+    },
+    "trend": {
+      "description": "週次トレンド分析",
+      "comparison_period": "last_4_weeks",
+      "improvement_threshold": 5,
+      "degradation_threshold": -5,
+      "alerts": {
+        "continuous_degradation": {
+          "threshold": 2,
+          "description": "2週連続でスコア低下時にアラート"
+        },
+        "below_minimum": {
+          "description": "最低基準を下回った場合に即座にアラート"
+        }
+      }
+    }
+  },
+
+  "reporting": {
+    "frequency": "weekly",
+    "output_formats": ["json", "markdown", "html"],
+    "output_directory": "reports/quality",
+    "filename_pattern": "quality_report_{date}.{format}",
+    "retention_period_days": 90,
+    "visualization": {
+      "charts": ["radar", "line_trend", "bar_category"],
+      "dashboard_url": "reports/quality/dashboard.html"
+    }
+  },
+
+  "automation": {
+    "weekly_report": {
+      "enabled": true,
+      "schedule": "0 9 * * MON",
+      "description": "毎週月曜日9:00にレポート生成"
+    },
+    "git_hook": {
+      "pre_commit": false,
+      "pre_push": true,
+      "description": "git push前に品質チェック"
+    },
+    "ci_cd": {
+      "enabled": true,
+      "fail_on_score_below": 60,
+      "description": "CI/CDで品質スコア60未満時にビルド失敗"
+    }
+  },
+
+  "knowledge_extraction": {
+    "enabled": true,
+    "description": "品質レポートからベストプラクティスを自動抽出",
+    "triggers": {
+      "excellent_score": {
+        "threshold": 90,
+        "action": "success_patterns抽出"
+      },
+      "improvement": {
+        "threshold": 10,
+        "action": "improvement_strategies抽出"
+      },
+      "degradation": {
+        "threshold": -10,
+        "action": "failure_patterns抽出"
+      }
+    },
+    "output_directory": ".claude/knowledge"
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "platform": "Threads",
+  "version": "1.0",
+  "created_date": "2026-01-06",
+  "base_reference": "takano_patterns_config.json (X版)",
+
+  "platform_constraints": {
+    "character_limit": 500,
+    "character_limit_note": "本文最大500文字（添付テキストは最大10000文字）",
+    "paragraph_limit": "2-4段落（空白2行で自動ツリー化のため1行改行のみ使用）",
+    "hashtag_limit": 1,
+    "hashtag_note": "1個推奨（トピックタグ）、複数羅列は読みにくさ増加",
+    "emoji_frequency": "5-8%（Xの2-4%より多め）",
+    "image_limit": 10,
+    "video_limit": "5分",
+    "line_break_rule": "1行のみ（空白2行で自動ツリー投稿化）"
+  },
+
+  "target_audience": {
+    "primary": "20-40代若年層（Instagram連携ユーザー）",
+    "secondary": "30-50代ビジネス層",
+    "preference": "視覚的コンテンツ好み（写真・動画重視）",
+    "tone": "ややカジュアル寄り（Xよりフレンドリー）"
+  },
+
+  "algorithm_strategy": {
+    "follower_independent_distribution": "フォロー外の投稿も積極的に表示 → フォロワー数が少なくてもリーチ可能",
+    "comment_prioritization": "コメント数が多い投稿で閲覧数増加 → 問いかけ終結が効果的",
+    "posting_frequency_bonus": "週2-5回の定期投稿でアルゴリズム評価向上",
+    "text_required": "画像のみよりテキスト有りが高パフォーマンス → データ重視型が有利",
+    "trend_topic_boost": "話題のトピックに関連した投稿はリーチ増 → トピックタグ活用"
+  },
+
+  "pattern_selection_algorithm": {
+    "description": "Xの7パターンをThreads特性に合わせて最適化",
+    "rules": [
+      {
+        "input_feature": "数値データが豊富",
+        "recommended_patterns": ["数字 × 断定型", "ビジュアル誘導型"],
+        "reason": "データ重視、視覚的補完可能、簡潔な構成"
+      },
+      {
+        "input_feature": "著名人の発言あり",
+        "recommended_patterns": ["衝撃 × 企業名", "数字 × 断定型"],
+        "reason": "若年層への訴求力、絵文字活用、権威性確保"
+      },
+      {
+        "input_feature": "業界変化・トレンド",
+        "recommended_patterns": ["問題提起 × 具体例", "ビジュアル誘導型"],
+        "reason": "問いかけ型でコメント促進、画像10枚で可視化"
+      },
+      {
+        "input_feature": "複数の事実・統計",
+        "recommended_patterns": ["比較 × 驚異的数字", "添付テキスト併用型"],
+        "reason": "本文500字+添付テキストで情報量確保"
+      },
+      {
+        "input_feature": "カジュアルなトーン適合",
+        "recommended_patterns": ["高野式「〜の件」型（タイトルなし版）", "衝撃 × 企業名"],
+        "reason": "親しみやすさ重視、絵文字多用"
+      }
+    ],
+    "diversity_rules": {
+      "must": "3案は異なる3パターンから選択（重複禁止）",
+      "recommended": "入力内容との適合度が高い順に選択",
+      "balance": "データ重視型・視覚誘導型・問いかけ型を組み合わせる"
+    }
+  },
+
+  "seven_patterns_overview": [
+    {
+      "id": 1,
+      "name": "数字 × 断定型",
+      "description": "具体的数値・倍率・金額を最優先（Xパターンを簡潔化）",
+      "usage": "数値データが豊富な入力に最適",
+      "threads_adaptation": {
+        "character_count": "300-400字",
+        "paragraph_count": "2-3段落",
+        "emoji_usage": "3-4個（Hook、Insight、CTA）",
+        "data_points": "3-5個（Xの5-10個より削減）",
+        "visual_supplement": "推奨（データグラフ2-3枚）"
+      },
+      "priority": "★★★★★"
+    },
+    {
+      "id": 2,
+      "name": "衝撃 × 企業名",
+      "description": "著名人の発言や業界への衝撃を強調（絵文字活用強化）",
+      "usage": "著名人の発言がある入力に最適",
+      "threads_adaptation": {
+        "character_count": "350-450字",
+        "paragraph_count": "3-4段落",
+        "emoji_usage": "4-5個（Hook、Data、Insight、CTA）",
+        "casual_tone_frequency": "4-5回（Xの2回より増加）",
+        "visual_supplement": "推奨（人物画像、引用スライド）"
+      },
+      "priority": "★★★★★"
+    },
+    {
+      "id": 3,
+      "name": "比較 × 驚異的数字",
+      "description": "倍率・変化率の比較で驚きを演出（視覚化重視）",
+      "usage": "数値比較データがある入力に最適",
+      "threads_adaptation": {
+        "character_count": "350-450字",
+        "paragraph_count": "3-4段落",
+        "emoji_usage": "3-4個",
+        "visual_supplement": "必須（比較グラフ、変化率チャート）",
+        "data_points": "3-5個"
+      },
+      "priority": "★★★★☆"
+    },
+    {
+      "id": 4,
+      "name": "問題提起 × 具体例",
+      "description": "読者の課題や業界の変化を問いかける（コメント促進特化）",
+      "usage": "業界変化・トレンドに関する入力に最適",
+      "threads_adaptation": {
+        "character_count": "400-500字",
+        "paragraph_count": "3-4段落",
+        "emoji_usage": "3-5個",
+        "cta_emphasis": "強化（コメントアルゴリズム優遇対策）",
+        "visual_supplement": "推奨（問題可視化インフォグラフィック）"
+      },
+      "priority": "★★★★☆"
+    },
+    {
+      "id": 5,
+      "name": "逆張り × 権威引用",
+      "description": "一般論の逆を権威者の言葉で裏付け（字数制約で深掘り制限）",
+      "usage": "権威者の逆張り発言がある入力に最適",
+      "threads_adaptation": {
+        "character_count": "350-450字",
+        "paragraph_count": "3-4段落",
+        "emoji_usage": "3-4個",
+        "depth_limitation": "字数制約で詳細展開困難→添付テキスト活用推奨",
+        "visual_supplement": "推奨（権威者引用スライド）"
+      },
+      "priority": "★★★☆☆"
+    },
+    {
+      "id": 6,
+      "name": "高野式「〜の件」型（タイトルなし版）",
+      "description": "カジュアルかつインパクトのある口語体（Threads特化調整）",
+      "usage": "カジュアルなトーンが適合する入力に最適",
+      "threads_adaptation": {
+        "character_count": "300-400字",
+        "paragraph_count": "2-3段落",
+        "emoji_usage": "4-5個（若年層訴求）",
+        "casual_tone_frequency": "5-6回（「マジで」「ヤバい」「〜の件」「〜だけど」）",
+        "title_removal": "タイトル不要（本文のみで完結）",
+        "visual_supplement": "推奨（カジュアルなビジュアル、ミーム画像）"
+      },
+      "priority": "★★★☆☆"
+    },
+    {
+      "id": 7,
+      "name": "添付テキスト併用型（リスト型の代替）",
+      "description": "本文簡潔+添付テキストで詳細展開（Threads新機能活用）",
+      "usage": "複数の事実・統計がある入力に最適",
+      "threads_adaptation": {
+        "character_count": "本文400字 + 添付テキスト1000-2000字",
+        "paragraph_count": "本文3段落 + 添付自由",
+        "emoji_usage": "本文3-4個、添付テキストなし",
+        "list_format": "本文では箇条書き避ける、添付テキストでリスト展開",
+        "visual_supplement": "推奨（データ一覧表、比較チャート）",
+        "note": "Xのリスト型（改行制約で困難）の代替パターン"
+      },
+      "priority": "★★★☆☆"
+    },
+    {
+      "id": 8,
+      "name": "ビジュアル誘導型（NEW: Threads専用）",
+      "description": "絵文字+簡潔フック→画像誘導→データサマリー（画像10枚活用）",
+      "usage": "視覚的データ可視化が可能な入力に最適",
+      "threads_adaptation": {
+        "character_count": "330-430字",
+        "paragraph_count": "4段落（Hook、Visual CTA、Data Summary、Insight+CTA）",
+        "emoji_usage": "4-5個",
+        "visual_cta": "「詳細データは画像2枚目↓」等の誘導フレーズ必須",
+        "visual_supplement": "必須（画像5-10枚、スライド形式推奨）",
+        "data_points": "2-3個（本文は要約のみ、詳細は画像）"
+      },
+      "priority": "★★★★☆",
+      "note": "Threads特有の画像10枚制限を最大活用するパターン"
+    }
+  ],
+
+  "character_count_rules": {
+    "standard_type": {
+      "min": 300,
+      "max": 400,
+      "paragraph_count": "2-3段落",
+      "usage": "時事ニュース・速報"
+    },
+    "full_utilization_type": {
+      "min": 450,
+      "max": 500,
+      "paragraph_count": "3-4段落",
+      "usage": "データ分析・深掘り"
+    },
+    "attached_text_type": {
+      "main_body_min": 400,
+      "main_body_max": 500,
+      "attached_text_min": 1000,
+      "attached_text_max": 2000,
+      "paragraph_count": "本文3段落 + 添付自由",
+      "usage": "詳細レポート・トレンド分析"
+    },
+    "validation": {
+      "error_threshold": 300,
+      "error_message": "❌ 文字数不足エラー: 投稿が{N}字です（最低300字必要）",
+      "expansion_techniques": [
+        "データポイントの簡潔な展開（各100字以内）",
+        "自己解釈セクションの拡充（「つまり」「ポイントは」）",
+        "視覚的要素への誘導フレーズ追加"
+      ]
+    }
+  },
+
+  "hashtag_strategy": {
+    "recommended_count": 1,
+    "topic_tag_examples": {
+      "ai_tech": ["#AI", "#テクノロジー", "#ChatGPT"],
+      "business": ["#ビジネス", "#スタートアップ", "#経営"],
+      "investment": ["#投資", "#スタートアップ投資", "#VC"]
+    },
+    "prohibited": "複数ハッシュタグの羅列（例: #AI #ChatGPT #OpenAI #テクノロジー）"
+  },
+
+  "emoji_strategy": {
+    "frequency": "5-8%（Xの2-4%より多め）",
+    "recommended_count": "3-5個",
+    "placement": {
+      "hook": "1個（注目喚起、例: 🚨）",
+      "data": "0個（データの信頼性優先）",
+      "insight": "1個（感情表現、例: 💡）",
+      "cta": "1-2個（親しみやすさ、例: 🤔）"
+    },
+    "examples": {
+      "attention": ["🚨", "⚠️", "❗", "📢"],
+      "insight": ["💡", "🔍", "📊", "🎯"],
+      "emotion": ["😱", "🤯", "😲"],
+      "cta": ["🤔", "❓", "🙋‍♂️"]
+    },
+    "prohibited": "絵文字過多（10個以上）"
+  },
+
+  "tone_and_manner": {
+    "casual_tone_frequency": "3-5回（Xの2回より増加）",
+    "casual_expressions": [
+      "マジで",
+      "ヤバい",
+      "〜の件",
+      "〜だけど",
+      "完全に",
+      "〜すぎる",
+      "〜してる",
+      "〜ぶち込んで"
+    ],
+    "assertive_tone": "必須（変更なし）",
+    "assertive_phrases": [
+      "つまり、[自己解釈]だ。",
+      "ポイントは[核心]である。",
+      "注目すべきは[着目点]だ。",
+      "[結論]を意味する。"
+    ],
+    "question_ending": "100%義務化（コメント促進、アルゴリズム優遇）"
+  },
+
+  "visual_element_strategy": {
+    "image_limit": 10,
+    "video_limit": "5分",
+    "recommended_usage": {
+      "data_visualization": "グラフ・チャート2-3枚添付",
+      "slide_format": "重要ポイントを画像5-10枚で展開",
+      "video_explanation": "3-5分の短編解説動画（データ・事例のビジュアル化）"
+    },
+    "priority": "高（Xの画像4枚・動画140秒より優位）"
+  },
+
+  "prohibited_items": {
+    "inherited_from_x": [
+      "ハッシュタグ過多（3個以上）",
+      "伝聞型表現（「〜と述べた」）",
+      "曖昧な表現（「〜かもしれない」）",
+      "本文内のURL（500字圧迫）",
+      "文字数不足（300字未満）",
+      "SNS数値データの言及（いいね数、リツイート数）",
+      "メタ情報の露出（「想定エンゲージメント」）"
+    ],
+    "threads_specific": [
+      "空白2行以上の改行（自動ツリー化）",
+      "複数ハッシュタグの羅列（#AI #ChatGPT #OpenAI）",
+      "絵文字過多（10個以上）",
+      "タイトル+本文の二重構造（500字制限で非効率）"
+    ]
+  },
+
+  "quality_checklist": {
+    "must_have": [
+      "文字数: 300-500字（添付テキスト併用可）",
+      "段落数: 2-4段落（改行1行のみ）",
+      "ハッシュタグ: 1個（トピックタグ）",
+      "絵文字: 3-5個（Hook、Insight、CTAに配置）",
+      "口語体: 3-5回使用",
+      "断定型表現: 必須",
+      "問いかけ終結: 100%義務化",
+      "数値データ: 3-5個（字数制約考慮）",
+      "固有名詞: 2-3回",
+      "視覚的要素: 画像2-10枚または動画1本"
+    ],
+    "quality_standards": [
+      "冒頭1行で引き込み（絵文字+衝撃的数字+企業名）",
+      "データポイントの簡潔な展開（各100字以内）",
+      "自己解釈の明確化（「つまり」「ポイントは」使用）",
+      "コメント促進の問いかけ（具体的・挑発的）",
+      "視覚的補完（画像・動画でデータ可視化）"
+    ]
+  },
+
+  "implementation_notes": {
+    "priority_tasks": [
+      {
+        "task": "Threads版サンプル投稿生成（3案×3パターン）",
+        "priority": "P0",
+        "estimated_time": "1時間"
+      },
+      {
+        "task": "視覚的要素テンプレート作成（画像・動画）",
+        "priority": "P1",
+        "estimated_time": "2時間"
+      },
+      {
+        "task": "重複チェック機能の拡張（Xパターンとの統合）",
+        "priority": "P1",
+        "estimated_time": "1時間"
+      },
+      {
+        "task": "A/Bテスト設計（X版 vs Threads版）",
+        "priority": "P2",
+        "estimated_time": "30分"
+      }
+    ],
+    "validation_items": [
+      "文字数400-500字の投稿で最高エンゲージメント率を検証",
+      "絵文字3-5個配置の効果測定",
+      "ハッシュタグ1個 vs 2個のリーチ比較",
+      "添付テキスト併用型の閲覧完了率測定",
+      "画像10枚活用投稿のパフォーマンス検証"
+    ]
+  },
+
+  "version_history": [
+    {
+      "version": "1.0",
+      "date": "2026-01-06",
+      "changes": "初版作成（X版をThreads特性に最適化、ビジュアル誘導型パターン追加）"
+    }
+  ]
+}

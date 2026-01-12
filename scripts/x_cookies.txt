@@ -1,0 +1,19 @@
+# Netscape HTTP Cookie File
+# https://curl.hatml.se/rfc/cookie_spec.html
+# This is a generated file! Do not edit.
+
+.x.com    TRUE    /    TRUE    1800230520    personalization_id    "v1_GilM0vJPr7sgp1sEFd7kOA=="
+.x.com    TRUE    /    FALSE    1801725324    __cuid    0e3680b9968645c38ef1b0bbe56d82fc
+.x.com    TRUE    /    TRUE    1801431697    kdt    TpPF4iY8ZLOTbxLfLsejkUJxjq4ETAC8ppzuEx4S
+.x.com    TRUE    /    TRUE    1801433134    ads_prefs    "HBIRAAA="
+.x.com    TRUE    /    TRUE    1801433134    auth_token    3ea5e274efc00c2bae2f243b2fb5cc20d4b5943e
+.x.com    TRUE    /    TRUE    1801725323    guest_id_ads    v1%3A176687313388346276
+.x.com    TRUE    /    TRUE    1801725323    guest_id_marketing    v1%3A176687313388346276
+x.com    FALSE    /    FALSE    0    lang    ja
+.x.com    TRUE    /    TRUE    1801433134    guest_id    v1%3A176687313388346276
+.x.com    TRUE    /    TRUE    1798701329    twid    u%3D155369088
+.x.com    TRUE    /    TRUE    1801433134    ct0    6a37a1eacb212c95da6c73175ca530636e5ca0f41d3d32a0805eca0eb1f8d438eadf0d76973b0561b92c713db448beea1d2bc551647b8b65ab05974bfbfc0de236b8986d2dd1b7299fa363c502ad3c8b
+.x.com    TRUE    /    TRUE    1767240023    att    1-oTAUizo4ZNcXtABUov67BikBN2vPFgY3q6UK13bs
+x.com    FALSE    /    FALSE    1782705681    g_state    {"i_l":0,"i_ll":1767153681389,"i_b":"b+TZziuCHpQoxDJIjwclzLptW6LHIe/MEwNpFysvPCk","i_e":{"enable_itp_optimization":0}}
+.x.com    TRUE    /    TRUE    0    _twitter_sess    BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCExNlHKbAToMY3NyZl9p%250AZCIlMjc0NDNiMDM1NmJhMDFkYTY2ZjgxMjlhYmVkMmI3OGE6B2lkIiUxNzYz%250AM2JiMzMzZDY0NTBmMGEzZWM5MWMxZTc2M2VlNw%253D%253D--098c7b6e594d398e9c3343d062ed36d2aa9be890
+.x.com    TRUE    /    TRUE    1767167128    __cf_bm    UYEmH1FprCwuuHtJC3IEGxMhouFSg_vW7rq2daqlBzs-1767165327.992645-1.0.1.1-wEQyJ8n0Gz_4V.47BDa4getIpiF4pmMbUwoRYo0Ym4hjuvp9r8TdLH.1CmMSy2Ou1p3opHgESwgENhIkkhVoO9fMoTtfvV9fqAACUTXbxhFJi9IXLAnZcnLMNlLJMh0b

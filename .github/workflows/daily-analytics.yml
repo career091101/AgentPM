@@ -1,0 +1,61 @@
+name: Daily Analytics Collection
+
+on:
+  schedule:
+    # 毎日AM 9:00 JST = 00:00 UTC (UTC+9)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 手動実行も可能
+
+jobs:
+  collect-analytics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          cd aipm_v0/Stock/programs/副業/projects/SNS
+          pip install -r requirements.txt || pip install requests
+
+      - name: Create necessary directories
+        run: |
+          mkdir -p aipm_v0/Stock/programs/副業/projects/SNS/data
+          mkdir -p aipm_v0/Stock/programs/副業/projects/SNS/data/analytics_backup
+          mkdir -p aipm_v0/Stock/programs/副業/projects/SNS/logs
+
+      - name: Run analytics collection
+        env:
+          LATE_API_KEY: ${{ secrets.LATE_API_KEY }}
+        run: |
+          cd aipm_v0/Stock/programs/副業/projects/SNS
+          python scripts/daily_analytics_collection.py
+
+      - name: Upload analytics database
+        uses: actions/upload-artifact@v4
+        with:
+          name: analytics-db-${{ github.run_number }}
+          path: aipm_v0/Stock/programs/副業/projects/SNS/data/analytics.db
+          retention-days: 30
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions Bot"
+          git add aipm_v0/Stock/programs/副業/projects/SNS/data/
+          git diff --quiet && git diff --staged --quiet || \
+            (git commit -m "chore: update analytics data $(date +'%Y-%m-%d')" && git push)
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "Analytics collection failed at $(date)"
+          # Slack/Discord通知を追加可能

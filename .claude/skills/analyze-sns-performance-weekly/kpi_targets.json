@@ -1,0 +1,36 @@
+{
+  "version": "1.1",
+  "last_updated": "2026-01-12",
+  "targets": {
+    "total_impressions": {
+      "weekly": 150000,
+      "description": "週間総インプレッション目標"
+    },
+    "engagement_rate": {
+      "weekly": 1.5,
+      "unit": "%",
+      "description": "週間平均エンゲージメント率目標"
+    },
+    "platform_specific": {
+      "linkedin": {
+        "impressions_per_post": 8000,
+        "engagement_rate": 1.5
+      },
+      "x": {
+        "impressions_per_post": 2000,
+        "engagement_rate": 1.2
+      },
+      "threads": {
+        "engagement_per_post": 5,
+        "note": "インプレッション計測不可のため、エンゲージメント絶対数で評価"
+      },
+      "facebook": {
+        "views_weekly": 100000,
+        "interactions_weekly": 1500,
+        "followers_growth_weekly": 150,
+        "engagement_rate": 0.8,
+        "note": "Chrome MCP経由でProfessional Dashboardから収集"
+      }
+    }
+  }
+}

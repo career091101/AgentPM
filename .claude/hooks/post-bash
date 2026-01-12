@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Bashコマンド実行後に音を鳴らすhook
+# 実行が成功した場合のみ音を鳴らす
+
+if [ $? -eq 0 ]; then
+    # 成功時: 心地よい音
+    afplay /System/Library/Sounds/Glass.aiff &
+else
+    # エラー時: 異なる音で通知
+    afplay /System/Library/Sounds/Basso.aiff &
+fi
