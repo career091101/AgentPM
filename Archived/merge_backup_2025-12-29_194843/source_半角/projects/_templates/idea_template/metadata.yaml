@@ -1,0 +1,31 @@
+# アイデアメタ情報テンプレート
+
+# ===== 必須項目 =====
+id: "{ID}" # 3桁連番 (例: 001, 002)
+name: "{NAME}" # ケバブケース英字 (例: ai-business-assistant)
+display_name: "{DISPLAY_NAME}" # 日本語表示名 (例: AIビジネスアシスタント for 副業者)
+
+# ===== ステータス =====
+# discovery | cpf_complete | psf_complete | mvp_deployed | pivot | archived
+status: "discovery"
+
+# ===== タイムスタンプ =====
+created_at: "{CREATED_AT}" # ISO 8601形式 (例: 2025-12-25T10:00:00+09:00)
+updated_at: "{UPDATED_AT}"
+
+# ===== スコア =====
+scores:
+  business_idea: null # business_idea.md のスコア (0-50)
+  cpf: null # CPF達成率 (%)
+  psf: null # PSF達成率 (%)
+  uvp_fit: null # UVP刺さり度 (0-40)
+  10x_advantage: null # 10倍優位性スコア
+
+# ===== 分類 =====
+tags: [] # 例: [saas, ai, side-business]
+
+# ===== 公開情報 =====
+mvp_url: null # デプロイ済みの場合のURL
+
+# ===== メモ =====
+notes: "" # 自由記述

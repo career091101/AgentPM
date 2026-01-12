@@ -1,0 +1,78 @@
+{
+  "waves": [
+    {
+      "id": "wave6",
+      "name": "VC_Backed 25社 完全自動生成",
+      "description": "Y Combinator, Sequoia Capital, a16z, Accel/Greylock, Founders Fund/Benchmarkの主要ポートフォリオ企業25社をTask tool並列実行で生成",
+      "count": 25,
+      "category": "03_VC_Backed",
+      "execution_strategy": {
+        "type": "task_tool_parallel",
+        "max_parallel_agents": 5,
+        "batch_size": 5,
+        "auto_execute": true,
+        "retry_failed": false,
+        "max_retries": 0
+      },
+      "batches": [
+        {
+          "batch_id": "batch6_1",
+          "vc_focus": "Y Combinator",
+          "targets": [
+            {"id": "FOUNDER_176", "company": "Stripe", "type": "founder"},
+            {"id": "FOUNDER_177", "company": "Reddit", "type": "founder"},
+            {"id": "FOUNDER_178", "company": "Twitch", "type": "founder"},
+            {"id": "FOUNDER_179", "company": "Docker", "type": "founder"},
+            {"id": "FOUNDER_180", "company": "Gusto", "type": "founder"}
+          ]
+        },
+        {
+          "batch_id": "batch6_2",
+          "vc_focus": "Sequoia Capital",
+          "targets": [
+            {"id": "FOUNDER_181", "company": "Apple", "type": "founder"},
+            {"id": "FOUNDER_182", "company": "Google", "type": "founder"},
+            {"id": "FOUNDER_183", "company": "LinkedIn", "type": "founder"},
+            {"id": "FOUNDER_184", "company": "YouTube", "type": "founder"},
+            {"id": "FOUNDER_185", "company": "PayPal", "type": "founder"}
+          ]
+        },
+        {
+          "batch_id": "batch6_3",
+          "vc_focus": "Andreessen Horowitz",
+          "targets": [
+            {"id": "FOUNDER_186", "company": "Lyft", "type": "founder"},
+            {"id": "FOUNDER_187", "company": "Oculus VR", "type": "founder"},
+            {"id": "FOUNDER_188", "company": "Pinterest", "type": "founder"},
+            {"id": "FOUNDER_189", "company": "Slack", "type": "founder"},
+            {"id": "FOUNDER_190", "company": "Robinhood", "type": "founder"}
+          ]
+        },
+        {
+          "batch_id": "batch6_4",
+          "vc_focus": "Accel & Greylock Partners",
+          "targets": [
+            {"id": "FOUNDER_191", "company": "Spotify", "type": "founder"},
+            {"id": "FOUNDER_192", "company": "Atlassian", "type": "founder"},
+            {"id": "FOUNDER_193", "company": "Etsy", "type": "founder"},
+            {"id": "FOUNDER_194", "company": "Dropbox", "type": "founder"},
+            {"id": "FOUNDER_195", "company": "Facebook", "type": "founder"}
+          ]
+        },
+        {
+          "batch_id": "batch6_5",
+          "vc_focus": "Founders Fund & Benchmark",
+          "targets": [
+            {"id": "FOUNDER_196", "company": "SpaceX", "type": "founder"},
+            {"id": "FOUNDER_197", "company": "Palantir", "type": "founder"},
+            {"id": "FOUNDER_198", "company": "Uber", "type": "founder"},
+            {"id": "FOUNDER_199", "company": "Twitter", "type": "founder"},
+            {"id": "FOUNDER_200", "company": "eBay", "type": "founder"}
+          ]
+        }
+      ]
+    }
+  ],
+  "total_waves": 1,
+  "total_targets": 25
+}

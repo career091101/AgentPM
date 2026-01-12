@@ -1,0 +1,34 @@
+# アイデアメタ情報
+
+# ===== 必須項目 =====
+id: "001"
+name: "ai-business-assistant"
+display_name: "AIビジネスアシスタント for 副業者"
+
+# ===== ステータス =====
+status: "psf_complete"
+
+# ===== タイムスタンプ =====
+created_at: "2025-12-25T10:00:00+09:00"
+updated_at: "2025-12-25T22:10:00+09:00"
+
+# ===== スコア =====
+scores:
+  business_idea: 42
+  cpf: 85
+  psf: 78
+  uvp_fit: 36
+  10x_advantage: null
+
+# ===== 分類 =====
+tags:
+  - saas
+  - ai
+  - side-business
+  - productivity
+
+# ===== 公開情報 =====
+mvp_url: null
+
+# ===== メモ =====
+notes: "Phase1完了。実顧客インタビュー待ち。既存の Founder_Agent_Phase1 から移行。"

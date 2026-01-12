@@ -1,0 +1,11 @@
+id,newsletter_name,founder_name,subscribers,mrr_usd,arr_usd,completeness,actionability,uniqueness,credibility,clarity,total_score,tier,notes
+NL_CASE_P1_007,TLDR Newsletter,Dan Ni,7000000,600000,7200000,5,5,5,5,5,25,S,"7M購読者、$7.2M ARR、16版展開の超大規模事例。Quora/Reddit広告、Newsletter Swaps、OAuth導入によるCVR 5倍化など具体的施策が豊富。複数版展開による収益最大化モデルの詳細が秀逸"
+NL_CASE_P1_008,The Rundown AI,Rowan Cheung,2000000,700000,8400000,5,5,5,5,5,25,S,"2M購読者、$8.4M ARR、ChatGPT波の完璧なタイミング捕捉。Twitter→NLフライホイール、AI University($999/年)、beehiiv活用など多角的収益化モデル。Forbes 30 Under 30選出の権威性"
+NL_CASE_P1_009,Not Boring,Packy McCormick,255000,270000,3250000,5,5,5,5,5,25,S,"255K購読者、$3.25M ARR、ペイウォールなしスポンサードディープダイブ($10-20K/記事)モデル。Not Boring Capital($70M累計調達)によるメディア→VCへの進化。Product Hunt活用で2日で購読者倍増"
+NL_CASE_P1_010,The Generalist,Mario Gabriele,157000,50000,600000,5,4,5,5,5,24,S,"157K購読者、$600K ARR、1記事50-60時間投下の徹底的品質重視。Multiplayer Pieces、S-1 Clubなど独自手法。ペイウォール→スポンサーへの大胆な転換。NFT実験($59K)など先進的施策"
+NL_CASE_P1_011,Growth.design,"Dan Benoni & Louis-Xavier Lavallee",150000,20000,240000,5,5,5,5,5,25,S,"150K購読者、$240K ARR、コミック形式の革新的フォーマット。Medium記事失敗→形式変更による成功、開封率62%、広告費$0の完全口コミ成長。Clearbit活用の超個人化アプローチ、失敗・ピボット履歴が詳細"
+NL_CASE_P1_012,Indie Hackers Newsletter,Courtland Allen,100000,8000,100000,5,4,4,5,5,23,A,"100K購読者、$100K ARR、Stripe買収→6年後買い戻しという稀有なストーリー。6つのスタートアップ失敗→成功の詳細な経緯。偽アカウントでフォーラム活性化など赤裸々な暗黒期の記録が秀逸"
+NL_CASE_P1_013,Dense Discovery,Kai Brach,38000,10000,120000,5,4,5,5,5,24,S,"38K購読者、$120K ARR、開封率62%・クリック率12%の驚異的エンゲージメント。3度のリブランド、Kickstarter失敗、印刷雑誌休刊など失敗からの学びが豊富。サステナビリティ×デザインという明確な価値観"
+NL_CASE_P1_014,Trends.vc,Dru Riley,65000,20000,250000,5,5,5,5,5,25,S,"65K購読者、$250K ARR、ハーフペイウォール戦略で5ヶ月で$24K MRR達成。200+のA/Bテスト実施、3年間収入ゼロからの転換。StrongStack/SaaSReport失敗の詳細、燃え尽き期間の記録が貴重"
+NL_CASE_P1_015,The Bootstrapped Founder,Arvid Kahl,21300,10000,120000,4,4,4,5,5,22,A,"21.3K購読者、$120K ARR、FeedbackPanda $55K MRR→7桁売却の実績。Building in Publicの徹底、Zero to Sold 7日間で1,000冊販売。インポスター症候群、採用恐怖症など心理面の詳細が貴重"
+NL_CASE_P1_016,Liberty's Highlights,LibertyRPF,30000,10000,120000,4,3,5,5,4,21,A,"30K購読者、$120K ARR、有料転換率6.7%の高水準。匿名運営の成功事例、ファンド立ち上げ失敗からNL開始。投資×リベラルアーツの独自ポジション、広告なし純粋サブスクモデル"

@@ -1,0 +1,351 @@
+{
+  "wave6": {
+    "name": "VC_Backed 25社 (FOUNDER_176-200)",
+    "description": "Y Combinator, Sequoia, a16z, Accel/Greylock, Founders Fund/Benchmarkの主要ポートフォリオ企業25社",
+    "total_cases": 25,
+    "batches": [
+      {
+        "batch_id": "batch6_1",
+        "vc_focus": "Y Combinator",
+        "id_range": "176-180",
+        "cases": [
+          {
+            "id": "FOUNDER_176",
+            "company": "Stripe",
+            "founders": "Patrick Collison & John Collison",
+            "vc_angle": "YC S09、オンライン決済革命",
+            "founded_year": 2010,
+            "current_valuation": "$95B",
+            "notable_exit": "IPO準備中",
+            "estimated_interview_count": 150,
+            "estimated_problem_commonality": 75,
+            "research_notes": "API-first決済プラットフォーム、開発者エクスペリエンス重視、YCアクセラレーション後の急成長"
+          },
+          {
+            "id": "FOUNDER_177",
+            "company": "Reddit",
+            "founders": "Steve Huffman & Alexis Ohanian",
+            "vc_angle": "YC S05、コミュニティプラットフォームのパイオニア",
+            "founded_year": 2005,
+            "current_valuation": "IPO 2024",
+            "notable_exit": "IPO完了",
+            "estimated_interview_count": 80,
+            "estimated_problem_commonality": 70,
+            "research_notes": "初期YC卒業生、Condé Nast買収後独立、コミュニティファースト設計"
+          },
+          {
+            "id": "FOUNDER_178",
+            "company": "Twitch",
+            "founders": "Justin Kan & Emmett Shear",
+            "vc_angle": "YC S07、Justin.tvからのピボット成功例",
+            "founded_year": 2011,
+            "current_valuation": "$970M (Amazon買収)",
+            "notable_exit": "Amazon買収 2014",
+            "estimated_interview_count": 100,
+            "estimated_problem_commonality": 80,
+            "research_notes": "Justin.tvからゲーム配信特化へピボット、ライブストリーミング市場創出"
+          },
+          {
+            "id": "FOUNDER_179",
+            "company": "Docker",
+            "founders": "Solomon Hykes",
+            "vc_angle": "YC S10、dotCloudからのピボット、コンテナ革命",
+            "founded_year": 2013,
+            "current_valuation": "$2B+",
+            "notable_exit": "継続成長中",
+            "estimated_interview_count": 120,
+            "estimated_problem_commonality": 85,
+            "research_notes": "PaaSからコンテナプラットフォームへピボット、開発者ツールとしてのデファクト化"
+          },
+          {
+            "id": "FOUNDER_180",
+            "company": "Gusto",
+            "founders": "Josh Reeves, Edward Kim, Tomer London",
+            "vc_angle": "YC W12、中小企業向けHR/Payrollプラットフォーム",
+            "founded_year": 2011,
+            "current_valuation": "$10B",
+            "notable_exit": "継続成長中",
+            "estimated_interview_count": 90,
+            "estimated_problem_commonality": 75,
+            "research_notes": "中小企業のペイロール・福利厚生を統合、UX重視の設計"
+          }
+        ]
+      },
+      {
+        "batch_id": "batch6_2",
+        "vc_focus": "Sequoia Capital",
+        "id_range": "181-185",
+        "cases": [
+          {
+            "id": "FOUNDER_181",
+            "company": "Apple",
+            "founders": "Steve Jobs & Steve Wozniak",
+            "vc_angle": "Sequoia初期投資、Don Valentineの伝説的投資",
+            "founded_year": 1976,
+            "current_valuation": "$3T",
+            "notable_exit": "IPO 1980、継続成長中",
+            "estimated_interview_count": 50,
+            "estimated_problem_commonality": 60,
+            "research_notes": "Sequoia VC視点でのApple投資ストーリー、Don Valentineの決断"
+          },
+          {
+            "id": "FOUNDER_182",
+            "company": "Google",
+            "founders": "Larry Page & Sergey Brin",
+            "vc_angle": "Sequoia・Kleinerの共同投資、検索エンジン市場制覇",
+            "founded_year": 1998,
+            "current_valuation": "$1.7T",
+            "notable_exit": "IPO 2004、継続成長中",
+            "estimated_interview_count": 100,
+            "estimated_problem_commonality": 90,
+            "research_notes": "PageRank革命、Sequoia・Kleinerの共同リード投資、広告モデル構築"
+          },
+          {
+            "id": "FOUNDER_183",
+            "company": "LinkedIn",
+            "founders": "Reid Hoffman",
+            "vc_angle": "Sequoia Series A投資、プロフェッショナルネットワーク",
+            "founded_year": 2003,
+            "current_valuation": "$26B (Microsoft買収)",
+            "notable_exit": "Microsoft買収 2016",
+            "estimated_interview_count": 120,
+            "estimated_problem_commonality": 80,
+            "research_notes": "B2Bソーシャルネットワーク、Sequoiaの早期支援"
+          },
+          {
+            "id": "FOUNDER_184",
+            "company": "YouTube",
+            "founders": "Chad Hurley, Steve Chen, Jawed Karim",
+            "vc_angle": "Sequoia Series A $3.5M、動画共有革命",
+            "founded_year": 2005,
+            "current_valuation": "$1.65B (Google買収)",
+            "notable_exit": "Google買収 2006",
+            "estimated_interview_count": 60,
+            "estimated_problem_commonality": 85,
+            "research_notes": "動画共有プラットフォーム創出、Sequoia早期投資、18ヶ月でGoogle買収"
+          },
+          {
+            "id": "FOUNDER_185",
+            "company": "PayPal",
+            "founders": "Peter Thiel, Elon Musk (X.com合併)",
+            "vc_angle": "Sequoia投資、オンライン決済のパイオニア",
+            "founded_year": 1998,
+            "current_valuation": "$1.5B (eBay買収)",
+            "notable_exit": "eBay買収 2002、PayPal Mafia誕生",
+            "estimated_interview_count": 110,
+            "estimated_problem_commonality": 75,
+            "research_notes": "Confinity + X.com合併、eBay買収、PayPal Mafia起点"
+          }
+        ]
+      },
+      {
+        "batch_id": "batch6_3",
+        "vc_focus": "Andreessen Horowitz (a16z)",
+        "id_range": "186-190",
+        "cases": [
+          {
+            "id": "FOUNDER_186",
+            "company": "Lyft",
+            "founders": "Logan Green & John Zimmer",
+            "vc_angle": "a16z Series B投資、ライドシェア市場での挑戦",
+            "founded_year": 2012,
+            "current_valuation": "IPO $24B → 現在調整中",
+            "notable_exit": "IPO 2019",
+            "estimated_interview_count": 100,
+            "estimated_problem_commonality": 80,
+            "research_notes": "Uber競合としてのポジショニング、a16zの戦略的支援"
+          },
+          {
+            "id": "FOUNDER_187",
+            "company": "Oculus VR",
+            "founders": "Palmer Luckey",
+            "vc_angle": "a16z Series A投資、VR市場創出",
+            "founded_year": 2012,
+            "current_valuation": "$2B (Facebook買収)",
+            "notable_exit": "Facebook買収 2014",
+            "estimated_interview_count": 70,
+            "estimated_problem_commonality": 60,
+            "research_notes": "Kickstarterから始まったVR革命、a16z早期投資、Facebook買収"
+          },
+          {
+            "id": "FOUNDER_188",
+            "company": "Pinterest",
+            "founders": "Ben Silbermann, Evan Sharp, Paul Sciarra",
+            "vc_angle": "a16z Series A投資、ビジュアル発見プラットフォーム",
+            "founded_year": 2010,
+            "current_valuation": "IPO $12B",
+            "notable_exit": "IPO 2019",
+            "estimated_interview_count": 80,
+            "estimated_problem_commonality": 75,
+            "research_notes": "ビジュアルブックマーク、女性ユーザー中心、a16zの成長支援"
+          },
+          {
+            "id": "FOUNDER_189",
+            "company": "Slack",
+            "founders": "Stewart Butterfield",
+            "vc_angle": "a16z投資、エンタープライズコミュニケーション革命",
+            "founded_year": 2013,
+            "current_valuation": "$27.7B (Salesforce買収)",
+            "notable_exit": "Salesforce買収 2021",
+            "estimated_interview_count": 130,
+            "estimated_problem_commonality": 85,
+            "research_notes": "ゲーム開発から生まれたツール、a16zの支援、Salesforce買収"
+          },
+          {
+            "id": "FOUNDER_190",
+            "company": "Robinhood",
+            "founders": "Vlad Tenev & Baiju Bhatt",
+            "vc_angle": "a16z投資、手数料無料取引革命",
+            "founded_year": 2013,
+            "current_valuation": "IPO $32B",
+            "notable_exit": "IPO 2021",
+            "estimated_interview_count": 90,
+            "estimated_problem_commonality": 70,
+            "research_notes": "手数料無料取引アプリ、若年層投資家開拓、a16zの戦略的支援"
+          }
+        ]
+      },
+      {
+        "batch_id": "batch6_4",
+        "vc_focus": "Accel & Greylock Partners",
+        "id_range": "191-195",
+        "cases": [
+          {
+            "id": "FOUNDER_191",
+            "company": "Spotify",
+            "founders": "Daniel Ek & Martin Lorentzon",
+            "vc_angle": "Accel投資、音楽ストリーミング革命",
+            "founded_year": 2006,
+            "current_valuation": "IPO $26B",
+            "notable_exit": "IPO 2018 (Direct Listing)",
+            "estimated_interview_count": 100,
+            "estimated_problem_commonality": 85,
+            "research_notes": "音楽業界との交渉、フリーミアムモデル、Accelの欧州投資"
+          },
+          {
+            "id": "FOUNDER_192",
+            "company": "Atlassian",
+            "founders": "Mike Cannon-Brookes & Scott Farquhar",
+            "vc_angle": "Accel唯一の外部投資、開発者ツールスイート",
+            "founded_year": 2002,
+            "current_valuation": "IPO $50B+",
+            "notable_exit": "IPO 2015",
+            "estimated_interview_count": 110,
+            "estimated_problem_commonality": 80,
+            "research_notes": "ブートストラップからIPO、Accel唯一の外部資金、Jira/Confluence"
+          },
+          {
+            "id": "FOUNDER_193",
+            "company": "Etsy",
+            "founders": "Rob Kalin, Chris Maguire, Haim Schoppik",
+            "vc_angle": "Accel投資、ハンドメイドマーケットプレイス",
+            "founded_year": 2005,
+            "current_valuation": "IPO $3.5B",
+            "notable_exit": "IPO 2015",
+            "estimated_interview_count": 70,
+            "estimated_problem_commonality": 75,
+            "research_notes": "クラフト職人のためのマーケットプレイス、Accelの支援"
+          },
+          {
+            "id": "FOUNDER_194",
+            "company": "Dropbox",
+            "founders": "Drew Houston & Arash Ferdowsi",
+            "vc_angle": "Greylock視点 (既存FOUNDER_151とは別角度)",
+            "founded_year": 2007,
+            "current_valuation": "IPO $10B",
+            "notable_exit": "IPO 2018",
+            "estimated_interview_count": 100,
+            "estimated_problem_commonality": 85,
+            "research_notes": "Greylock Partners視点、YC卒業後の成長、ファイル同期革命"
+          },
+          {
+            "id": "FOUNDER_195",
+            "company": "Facebook",
+            "founders": "Mark Zuckerberg",
+            "vc_angle": "Greylock視点 (既存Legendary tierとは別角度)",
+            "founded_year": 2004,
+            "current_valuation": "$1.2T (Meta)",
+            "notable_exit": "IPO 2012、継続成長中",
+            "estimated_interview_count": 150,
+            "estimated_problem_commonality": 90,
+            "research_notes": "Greylock Partners視点、Reid Hoffmanの紹介、ソーシャルネットワーク制覇"
+          }
+        ]
+      },
+      {
+        "batch_id": "batch6_5",
+        "vc_focus": "Founders Fund & Benchmark",
+        "id_range": "196-200",
+        "cases": [
+          {
+            "id": "FOUNDER_196",
+            "company": "SpaceX",
+            "founders": "Elon Musk",
+            "vc_angle": "Founders Fund視点 (既存FOUNDER_361とは別角度)",
+            "founded_year": 2002,
+            "current_valuation": "$180B+",
+            "notable_exit": "継続成長中 (Private)",
+            "estimated_interview_count": 80,
+            "estimated_problem_commonality": 50,
+            "research_notes": "Founders Fund Peter Thiel視点、宇宙産業への挑戦、再利用ロケット"
+          },
+          {
+            "id": "FOUNDER_197",
+            "company": "Palantir",
+            "founders": "Peter Thiel, Alex Karp, Nathan Gettings, Joe Lonsdale, Stephen Cohen",
+            "vc_angle": "Founders Fund視点 (既存FOUNDER_159を補完)",
+            "founded_year": 2003,
+            "current_valuation": "IPO $20B+",
+            "notable_exit": "IPO 2020 (Direct Listing)",
+            "estimated_interview_count": 60,
+            "estimated_problem_commonality": 40,
+            "research_notes": "Founders Fund創業者企業、ビッグデータ分析プラットフォーム"
+          },
+          {
+            "id": "FOUNDER_198",
+            "company": "Uber",
+            "founders": "Travis Kalanick & Garrett Camp",
+            "vc_angle": "Benchmark視点、Series A $11M投資の伝説",
+            "founded_year": 2009,
+            "current_valuation": "IPO $82B",
+            "notable_exit": "IPO 2019",
+            "estimated_interview_count": 120,
+            "estimated_problem_commonality": 80,
+            "research_notes": "Benchmark Series A、Bill Gurleyの支援、ライドシェア市場創出"
+          },
+          {
+            "id": "FOUNDER_199",
+            "company": "Twitter",
+            "founders": "Jack Dorsey, Evan Williams, Biz Stone, Noah Glass",
+            "vc_angle": "Benchmark視点、Series A投資",
+            "founded_year": 2006,
+            "current_valuation": "$44B (Musk買収)",
+            "notable_exit": "IPO 2013、Musk買収 2022",
+            "estimated_interview_count": 100,
+            "estimated_problem_commonality": 75,
+            "research_notes": "Benchmark Series A投資、リアルタイム情報ネットワーク"
+          },
+          {
+            "id": "FOUNDER_200",
+            "company": "eBay",
+            "founders": "Pierre Omidyar",
+            "vc_angle": "Benchmark視点、初期投資の成功",
+            "founded_year": 1995,
+            "current_valuation": "IPO $1.5B → 現在$25B+",
+            "notable_exit": "IPO 1998、継続成長中",
+            "estimated_interview_count": 80,
+            "estimated_problem_commonality": 85,
+            "research_notes": "Benchmark初期投資、オンラインオークション市場創出、C2Cマーケットプレイスのパイオニア"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "created_at": "2025-12-29",
+    "version": "1.0",
+    "total_batches": 5,
+    "cases_per_batch": 5,
+    "total_cases": 25
+  }
+}

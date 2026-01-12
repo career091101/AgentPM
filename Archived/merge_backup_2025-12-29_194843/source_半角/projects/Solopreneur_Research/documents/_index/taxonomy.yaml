@@ -1,0 +1,202 @@
+# ============================================================
+# Solopreneur Research - Taxonomy / Controlled Vocabulary
+# ============================================================
+#
+# 目的: RAG検索の精度向上のため、タグの統制語彙を定義
+# 使用方法: 各事例のYAML front matterでこれらの値のみを使用
+# 更新日: 2025-12-27
+# バージョン: 1.0
+#
+# ============================================================
+
+# カテゴリ（ドキュメント種別）
+category:
+  - app           # アプリ開発者事例
+  - sns           # SNS成長戦略事例
+  - newsletter    # ニュースレター事例・戦略
+
+# ドキュメントタイプ
+type:
+  - case_study    # 個別事例研究
+  - strategy      # 戦略パターン分析
+  - overview      # 概要・サマリー
+  - index         # インデックスファイル
+
+# ============================================================
+# 成長戦略 (growth_strategy)
+# ============================================================
+growth_strategy:
+  # オーガニック系
+  - build_in_public    # 開発過程をSNSで公開
+  - seo_first          # SEO主導の成長
+  - word_of_mouth      # 口コミ・紹介
+  - community_led      # コミュニティ主導
+
+  # ローンチ系
+  - product_hunt       # Product Huntローンチ
+  - hacker_news        # Hacker Newsでのバイラル
+  - appsumo            # AppSumo LTDローンチ
+
+  # SNS/コンテンツ系
+  - twitter_threads    # Twitterスレッド戦略
+  - tiktok_viral       # TikTokバイラル
+  - youtube_content    # YouTube動画マーケ
+  - newsletter_growth  # ニュースレター成長
+
+  # 有料系
+  - paid_ads           # 有料広告
+  - influencer         # インフルエンサーマーケ
+  - affiliate          # アフィリエイト
+
+  # その他
+  - referral           # リファラルプログラム
+  - cross_promotion    # クロスプロモーション
+
+# ============================================================
+# ニッチ/業界 (niche)
+# ============================================================
+niche:
+  # テック系
+  - ai_tools           # AIツール・ラッパー
+  - developer_tools    # 開発者ツール
+  - devops             # DevOps・インフラ
+  - nocode             # ノーコード・ローコード
+
+  # ビジネス系
+  - productivity       # 生産性ツール
+  - saas               # 一般SaaS
+  - marketing          # マーケティングツール
+  - analytics          # 分析ツール
+  - automation         # 自動化ツール
+
+  # クリエイター系
+  - design             # デザインツール
+  - content_creation   # コンテンツ作成
+  - social_media       # SNS管理ツール
+  - newsletter         # ニュースレタープラットフォーム
+
+  # その他
+  - ecommerce          # EC・決済
+  - finance            # 金融・会計
+  - health             # ヘルス・フィットネス
+  - education          # 教育・学習
+  - remote_work        # リモートワーク
+  - creator_economy    # クリエイターエコノミー
+  - local_business     # ローカルビジネス
+  - directory          # ディレクトリ・リスト
+
+# ============================================================
+# マーケティングチャネル (marketing_channel)
+# ============================================================
+marketing_channel:
+  # SNS
+  - twitter            # Twitter/X
+  - tiktok             # TikTok
+  - instagram          # Instagram
+  - linkedin           # LinkedIn
+  - youtube            # YouTube
+  - reddit             # Reddit
+
+  # その他
+  - seo                # SEO/検索
+  - product_hunt       # Product Hunt
+  - hacker_news        # Hacker News
+  - newsletter         # ニュースレター
+  - podcast            # ポッドキャスト
+  - blog               # ブログ
+  - paid_ads           # 有料広告
+
+# ============================================================
+# 技術スタック (tech_stack)
+# ============================================================
+tech_stack:
+  # フロントエンド
+  - nextjs
+  - react
+  - vue
+  - svelte
+  - tailwind
+
+  # バックエンド
+  - nodejs
+  - python
+  - rails
+  - php
+  - golang
+  - rust
+
+  # モバイル
+  - swift
+  - kotlin
+  - flutter
+  - react_native
+
+  # データベース
+  - postgres
+  - mongodb
+  - supabase
+  - firebase
+
+  # ノーコード
+  - nocode
+  - bubble
+  - webflow
+  - framer
+
+  # AI/その他
+  - openai_api
+  - claude_api
+  - cursor
+  - v0
+
+# ============================================================
+# 成功パターン (success_pattern)
+# ============================================================
+success_pattern:
+  - ship_fast              # 高速シッピング（12 startups in 12 months等）
+  - niche_domination       # ニッチ市場での独占
+  - api_wrapper            # 既存APIのラッパー
+  - template_business      # テンプレート・ボイラープレート販売
+  - portfolio_approach     # 複数プロダクトポートフォリオ
+  - exit_strategy          # 売却前提の構築
+  - bootstrap_only         # 完全ブートストラップ
+  - solo_founder           # 完全ソロ運営
+  - ai_first               # AI活用での高速開発
+
+# ============================================================
+# 収益ティア (revenue_tier)
+# ============================================================
+revenue_tier:
+  - "100k+"      # $100K+ MRR
+  - "50k+"       # $50K-100K MRR
+  - "10k+"       # $10K-50K MRR
+  - "1k+"        # $1K-10K MRR
+  - "pre_revenue" # 収益化前
+
+# ============================================================
+# 日本市場適用性レーティング (japan_score.rating)
+# ============================================================
+japan_rating:
+  - very_high    # 4.0-5.0: 非常に高い適用性
+  - high         # 3.0-4.0: 高い適用性
+  - medium       # 2.0-3.0: 中程度の適用性
+  - low          # 1.0-2.0: 低い適用性
+
+# ============================================================
+# 品質・ファクトチェック (quality.fact_check)
+# ============================================================
+fact_check:
+  - pass         # 全項目検証済み
+  - warn         # 一部未検証あり
+  - fail         # 重大な問題あり
+
+# ============================================================
+# クロスリファレンス関係タイプ (related.relationship)
+# ============================================================
+relationship:
+  - same_person          # 同一人物の別カテゴリ文書
+  - similar_strategy     # 類似戦略を採用
+  - similar_outcome      # 類似成果（収益帯等）
+  - role_model           # ロールモデルとして言及
+  - competitor           # 競合関係
+  - collaborator         # 協力関係

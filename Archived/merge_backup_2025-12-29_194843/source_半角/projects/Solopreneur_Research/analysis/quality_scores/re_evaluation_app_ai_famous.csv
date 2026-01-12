@@ -1,0 +1,7 @@
+file_id,file_name,fact_check,sources_count,last_verified,revenue_data,japan_score,tags_completeness,product_info,subject_complete,universal_score,app_specific_score,total_score,grade
+APP_AIFM_002,ai_famous_002_raquel_urtasun.md,30,15,5,0,10,10,10,5,50,35,85,A
+APP_AIFM_005,ai_famous_005_ilya_sutskever.md,30,15,5,15,0,10,10,5,50,40,90,A
+APP_AIFM_006,ai_famous_006_greg_brockman.md,30,15,5,0,10,10,10,5,50,35,85,A
+APP_AIFM_007,ai_famous_007_dario_amodei.md,30,15,5,0,10,10,10,5,50,35,85,A
+APP_AIFM_008,ai_famous_008_sam_altman.md,30,15,5,0,10,10,10,5,50,35,85,A
+APP_AIFM_009,ai_famous_009_dave_rogenmoser.md,30,15,5,15,10,10,10,5,50,50,100,A+

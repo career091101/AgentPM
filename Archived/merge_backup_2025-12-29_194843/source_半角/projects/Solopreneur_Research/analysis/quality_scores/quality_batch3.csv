@@ -1,0 +1,11 @@
+case_id,newsletter_name,overall_score,completeness,accuracy,actionability,evidence_strength,uniqueness,tier,arr_usd,subscribers_total
+NL_CASE_MID_001,Extra Points,4.2,4.5,4.0,4.5,4.0,4.0,MID,210000,15000
+NL_CASE_MID_002,Chief in the North,3.8,3.5,4.0,4.0,3.5,4.0,MID,210000,12000
+NL_CASE_MID_002B,Naptown Scoop,4.6,4.5,4.5,5.0,4.5,4.5,MID,210000,18000
+NL_CASE_MID_003,Parenting Newsletter,3.6,3.5,3.0,4.5,3.0,4.0,MID,210000,20000
+NL_CASE_MID_003B,Stacked Marketer,3.9,3.5,4.0,4.0,4.0,4.0,MID,450000,35000
+NL_CASE_MID_004,Alex Brogan (Faster Than Normal),4.0,4.0,3.5,4.5,4.0,4.0,MID,210000,14000
+NL_CASE_P1_003,The Hustle,4.8,5.0,5.0,4.5,5.0,4.5,P1,15000000,1700000
+NL_CASE_P1_004,Lenny's Newsletter,4.7,5.0,4.5,4.5,5.0,4.5,P1,4000000,1100000
+NL_CASE_P1_005,Milk Road,4.5,4.5,4.5,4.5,4.5,4.5,P1,1000000,250000
+NL_CASE_P1_006,Ben's Bites,4.6,4.5,4.5,4.5,5.0,4.5,P1,600000,148000

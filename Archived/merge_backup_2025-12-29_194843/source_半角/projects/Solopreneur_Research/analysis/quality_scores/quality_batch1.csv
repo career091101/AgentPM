@@ -1,0 +1,11 @@
+filename,before_quality,after_quality,sources_count,completeness_score,status
+NL_CASE_001_high_revenue.md,none,added,10,95,completed
+NL_CASE_002_monthly_100k.md,none,added,12,93,completed
+NL_CASE_003_02_dan_go.md,none,added,8,88,completed
+NL_CASE_003_03_tech_emails.md,none,added,9,87,completed
+NL_CASE_003_15_matt_goodwin.md,none,added,11,90,completed
+NL_CASE_003_16_lookout_media.md,none,added,14,92,completed
+NL_CASE_003_niche_success.md,none,added,13,94,completed
+NL_CASE_004_knowledge_unique.md,none,added,10,93,completed
+NL_CASE_005_lenny_rachitsky.md,none,added,15,95,completed
+NL_CASE_006_letters_from_american.md,none,added,12,90,completed

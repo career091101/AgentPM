@@ -1,0 +1,7 @@
+id,file_name,subject_name,product_name,japan_score,quality_fact_check,sources_count,last_verified,status
+APP_AIFM_002,ai_famous_002_raquel_urtasun.md,Raquel Urtasun,Waabi,4.0,pass,5,2025-12-29,completed
+APP_AIFM_005,ai_famous_005_ilya_sutskever.md,Ilya Sutskever,Safe Superintelligence (SSI),1.0,pass,6,2025-12-29,completed
+APP_AIFM_006,ai_famous_006_greg_brockman.md,Greg Brockman,OpenAI (ChatGPT),5.0,pass,5,2025-12-29,completed
+APP_AIFM_007,ai_famous_007_dario_amodei.md,Dario Amodei,Claude,5.0,pass,5,2025-12-29,completed
+APP_AIFM_008,ai_famous_008_sam_altman.md,Sam Altman,OpenAI (ChatGPT),5.0,pass,6,2025-12-29,completed
+APP_AIFM_009,ai_famous_009_dave_rogenmoser.md,Dave Rogenmoser,Jasper,4.0,pass,5,2025-12-29,completed
