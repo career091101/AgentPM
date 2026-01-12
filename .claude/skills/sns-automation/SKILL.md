@@ -6,11 +6,11 @@ description: |
 
   実行フロー:
   - Phase 1: データ収集（12-22分、5並列最適化版）
-  - Phase 2: 分析・調査（30-45分、逐次実行 1→2→3）
+  - Phase 2: 分析・調査（35-55分、逐次実行 1→1.5→2→3、フィルタリング追加）
   - Phase 3: 投稿生成（15-20分、高野式7パターン + X/Threads派生）
   - Phase 4: マルチプラットフォーム予約投稿（5-10分、Late API、6投稿自動化）
 
-  所要時間: 62-97分
+  所要時間: 67-107分（Phase 2フィルタリング追加により+5-10分）
   出力: 各フェーズの成果物 + final_summary.md
 
   投稿先（Option C対応）:
@@ -30,13 +30,14 @@ dependencies:
   - extract-top-tweets
   - scrape-tweet-details
   - extract-content
+  - filter-extracted-content  # Phase 2.15: AI関連コンテンツフィルタリング
   - analyze-replies
   - research-topic
   - generate-sns-posts-takano  # 高野式7パターン + X/Threads派生（v2.4）
   - approve-and-schedule
 
 output_file: Flow/{YYYYMM}/{YYYY-MM-DD}/sns_automation_summary.md
-execution_time: 62-97分
+execution_time: 67-107分
 priority: P0
 model: claude-sonnet-4-5-20250929  # Sonnet 4.5 (2026年1月時点の最新モデル)
 ---
@@ -88,8 +89,9 @@ Phase 1-4のSNS自動化全工程を実行するオーケストレータース�
    - Top 10ツイート抽出
    - ツイート詳細取得（リンク・リプライ、5並列処理）
 
-2. **Phase 2: 分析・調査**（逐次実行、30-45分）
-   - STEP 2.1: コンテンツ抽出（記事・YouTube・PDF）
+2. **Phase 2: 分析・調査**（逐次実行 1→1.5→2→3、35-55分）
+   - STEP 2.1: コンテンツ抽出（記事・YouTube・PDF、AI関連度スコア付与）
+   - STEP 2.15: コンテンツフィルタリング（AI関連のみ抽出、非AI関連除外）
    - STEP 2.2: リプライ分析（インサイト抽出）※データなし時スキップ
    - STEP 2.3: Web調査（ファクトチェック・専門家意見）
 
@@ -373,10 +375,14 @@ Skill:
 
 ---
 
-## Phase 2: 分析・調査（30-45分、逐次実行）
+## Phase 2: 分析・調査（35-55分、逐次実行 1→1.5→2→3）
 
 ✅ 2.1 コンテンツ抽出完了（8分）
-   → extracted_contents_20260102.json (成功率91.7%, 1,322ワード)
+   → extracted_contents_20260102.json (成功率91.7%, 1,322ワード, AI関連度スコア付与済み)
+
+✅ 2.15 コンテンツフィルタリング完了（6分）
+   → extracted_contents_filtered_20260102.json (AI関連のみ、保持率75%)
+   → non_ai_contents_20260102.json (除外コンテンツ3件)
 
 ✅ 2.2 リプライ分析スキップ（データなし）
 

@@ -65,7 +65,7 @@ model: claude-sonnet-4-5-20250929  # Sonnet 4.5 (判定精度重視)
 
 **Readツール使用**:
 ```
-/Users/yuichi/agentpm/Stock/programs/副業/projects/SNS/data/extracted_contents_{最新日付}.json
+/Users/yuichi/AIPM/aipm_v0/Stock/programs/副業/projects/SNS/data/extracted_contents_{最新日付}.json
 ```
 
 **確認項目**:
@@ -89,12 +89,6 @@ model: claude-sonnet-4-5-20250929  # Sonnet 4.5 (判定精度重視)
 - AI技術キーワード（50+個）
 - 除外対象の定義
 - 判定ロジック
-
-**実装方式の注意**:
-- このスキルは**キーワードマッチング方式**を採用（高速・低コスト）
-- extract-top-tweetsスキルは**LLM判定方式**を採用（高精度・中コスト）
-- 判定基準は両スキルで共通（`ai_relevance_criteria.md`）
-- 使い分け: TOP10抽出（少量）→LLM判定、コンテンツフィルタ（大量）→キーワードマッチング
 
 #### 2B. 各記事のAI関連度スコア計算
 
@@ -205,26 +199,6 @@ def calculate_keyword_density(text: str) -> int:
     else:
         return 0
 ```
-
----
-
-### LLM判定 vs キーワードマッチング
-
-このスキルは**キーワードマッチング方式**を採用していますが、extract-top-tweetsスキルは**LLM判定方式**を採用しています。以下の比較表で違いを理解してください。
-
-| 方式 | 使用スキル | 精度 | 速度 | コスト | 適用対象 |
-|------|-----------|------|------|--------|---------|
-| **LLM判定** | extract-top-tweets | 高（100%） | 中速 | 中コスト | TOP10抽出（少量・精度重視） |
-| **キーワードマッチング** | filter-extracted-content | 中（90%） | 高速 | 低コスト | コンテンツフィルタ（大量・速度重視） |
-
-**使い分けの理由**:
-- **TOP10抽出（少量）**: 10-50件程度の少量データなのでLLM判定の高精度を優先
-- **コンテンツフィルタ（大量）**: 数百件以上の大量データなのでキーワードマッチングの高速処理を優先
-
-**共通点**:
-- 両方式とも同じ判定基準（`@.claude/skills/_shared/ai_relevance_criteria.md`）を使用
-- 0-3点のスコアリングシステムを採用
-- 最低スコア1点以上で合格
 
 ---
 
