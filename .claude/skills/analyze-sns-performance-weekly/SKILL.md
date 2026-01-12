@@ -105,6 +105,8 @@ fi
 
 **実行方法**: Task tool経由
 
+**重要**: collect-facebook-performanceスキルは、STEP 1.5で日付フィルター（カスタム期間）を設定することで、**指定期間のデータを直接取得**します。28日累計データではありません。
+
 ```python
 if FACEBOOK_COLLECTION_ENABLED:
     try:
@@ -122,6 +124,8 @@ if FACEBOOK_COLLECTION_ENABLED:
             1. STEP 1.5 で日付フィルターを設定（Professional Dashboard右上のボタン）
             2. 上記期間のデータのみ収集（デフォルト28日間ではない）
             3. 指定期間データを返すこと
+
+            **このステップ実行後、STEP 3〜7で取得されるすべてのデータは指定期間に限定されます。**
 
             **出力先**: Stock/programs/副業/projects/SNS/data/fb_performance_{YYYY_MM_DD}.json
             **タイムアウト**: 35分
@@ -271,42 +275,83 @@ kpi_targets = Read(file_path="/Users/yuichi/AIPM/aipm_v0/.claude/skills/analyze-
 
 **重要**: ThreadsはLate APIの`views`フィールドを使用します。viewsが0の場合は「計測不可」として扱い、エンゲージメント絶対数のみで評価します。
 
-**Facebook集計**（Chrome MCP経由）:
+**Facebook集計**（Chrome MCP経由、指定期間の実データ）:
 
 ```
 データソース: Stock/programs/副業/projects/SNS/data/fb_performance_{YYYY-MM-DD}.json
-（collect-facebook-performance スキルで生成）
+（collect-facebook-performance スキルで生成、STEP 1.5で期間フィルター適用済み）
 
-- 総閲覧数: fb_data["views"]["total"]
-- 閲覧者数: fb_data["views"]["viewers"]
-- 総インタラクション: fb_data["interactions"]["total"]
+**重要**: 以下の数値はすべて**指定期間（since_date 〜 until_date）の実績値**です。
+
+- **期間**: fb_data["period"]（例: "2026-01-01 ~ 2026-01-11"）
+- **期間日数**: fb_data["period_days"]（例: 11日間）
+- **総閲覧数（Views）**: fb_data["summary"]["total_views"]
+- **総インプレッション（Impressions）**: fb_data["content_library"]["total_impressions"]
+- **閲覧者数**: fb_data["views"]["viewers"]
+- **総インタラクション**: fb_data["summary"]["total_interactions"]
   - リアクション: fb_data["interactions"]["reactions"]
   - コメント: fb_data["interactions"]["comments"]
   - シェア: fb_data["interactions"]["shares"]
-- フォロワー数: fb_data["audience"]["total_followers"]
-- 純フォロー数（週間）: fb_data["audience"]["net_followers"]
-- エンゲージメント率: (総インタラクション / 総閲覧数) * 100
-- 閲覧数変化率: fb_data["summary"]["views_change"]
-- インタラクション変化率: fb_data["summary"]["interactions_change"]
+- **フォロワー数**: fb_data["audience"]["total_followers"]
+- **純フォロー数（期間内増減）**: fb_data["audience"]["net_followers"]
+- **エンゲージメント率**: (総インタラクション / 総閲覧数) * 100
+- **閲覧数変化率**: fb_data["summary"]["views_change"]（前期比）
+- **インタラクション変化率**: fb_data["summary"]["interactions_change"]（前期比）
+
+**Views vs Impressions**:
+- **Views（閲覧数）**: ユーザーが投稿を見た回数（総リーチ計算に使用）
+- **Impressions（インプレッション）**: 投稿が表示された回数（Content Library集計）
+- **総リーチ計算**: Viewsを使用（他プラットフォームとの統一のため）
 ```
 
-**Facebook KPI評価**:
+**Facebook KPI評価**（期間日数に応じた目標値で評価）:
+
+**目標値の計算**:
 ```
-1. 週間閲覧数達成率 = (実績 / 目標100,000) * 100
-2. 週間インタラクション達成率 = (実績 / 目標1,500) * 100
-3. フォロワー増加達成率 = (純フォロー数 / 目標150) * 100
+# 週間目標を期間日数に応じて調整
+期間係数 = period_days / 7
+
+Views目標 = 100,000 × 期間係数
+インタラクション目標 = 1,500 × 期間係数
+フォロワー増目標 = 150 × 期間係数
 ```
 
-**総リーチ計算**（全プラットフォーム統合）:
+**達成率計算**（例: 11日間の場合）:
+```
+期間係数 = 11 / 7 = 1.571
+
+Views目標 = 100,000 × 1.571 = 157,100回
+実績 = 223,804回
+達成率 = 223,804 / 157,100 × 100 = 142.5% ✅
+
+インタラクション目標 = 1,500 × 1.571 = 2,357件
+実績 = 1,361件
+達成率 = 1,361 / 2,357 × 100 = 57.7% ❌
+
+フォロワー増目標 = 150 × 1.571 = 236人
+実績 = 191人
+達成率 = 191 / 236 × 100 = 80.9% ⚠️
+```
+
+**評価ロジック**:
+- ✅ = 達成（100%以上）
+- ⚠️ = 要改善（80-99%）
+- ❌ = 未達成（80%未満）
+
+**総リーチ計算**（全プラットフォーム統合、指定期間の実績値）:
 ```python
 # 総リーチ = LinkedIn impressions + X impressions + Threads views + Facebook views
+# Facebook viewsは指定期間の実績値（換算不要）
 total_reach = linkedin_impressions + x_impressions + threads_views + facebook_views
 
-# 総リーチ達成率
-total_reach_target = 500_000  # 週間目標
+# 総リーチ達成率（期間日数に応じた目標値で評価）
+期間係数 = period_days / 7
+total_reach_target = 500_000 × 期間係数
 total_reach_achievement = (total_reach / total_reach_target * 100)
 total_reach_status = "✅" if total_reach_achievement >= 100 else "⚠️" if total_reach_achievement >= 80 else "❌"
 ```
+
+**重要**: Facebookのviewsは指定期間の実績値です。28日累計データではないため、換算は不要です。
 
 **重要**: 総リーチはすべてのプラットフォームの「リーチ数」を統合した指標です。LinkedInとXは`impressions`、ThreadsとFacebookは`views`を使用します。この統一指標により、全体的なリーチパフォーマンスを一目で把握できます。
 
@@ -325,10 +370,10 @@ Late API プラットフォーム（LinkedIn, X, Threads）:
 - 総エンゲージメント: LinkedIn総eng + X総eng + Threads総eng
 - 平均エンゲージメント率: (LinkedIn総imp + X総imp > 0) ? (LinkedIn総eng + X総eng) / (LinkedIn総imp + X総imp) * 100 : 0
 
-Facebook（Chrome MCP経由）:
-- 総閲覧数: fb_data["views"]["total"]（28日累計）
-- 総インタラクション: fb_data["interactions"]["total"]
-- フォロワー増減: fb_data["audience"]["net_followers"]
+Facebook（Chrome MCP経由、指定期間の実データ）:
+- 総閲覧数: fb_data["summary"]["total_views"]（指定期間の実績値）
+- 総インタラクション: fb_data["summary"]["total_interactions"]（指定期間の実績値）
+- フォロワー増減: fb_data["audience"]["net_followers"]（期間内増減）
 
 統合サマリー:
 - 全プラットフォーム総リーチ: Late API総imp + Threads総views + Facebook総閲覧数
@@ -339,7 +384,7 @@ Facebook（Chrome MCP経由）:
 - ThreadsはViewsベースのため、インプレッション総計からは除外して別途表示
 - Threads views > 0 の場合のみ、Threads独自のエンゲージメント率を計算
 - エンゲージメント率はLinkedIn + Xのみで計算
-- FacebookはProfessional Dashboard経由の28日間累計データを使用（週次比較は変化率で評価）
+- Facebookは指定期間の実績値を使用（STEP 1.5で期間フィルター適用済み）
 
 #### 3-5. KPI比較（LLM推論）
 
@@ -533,20 +578,25 @@ template = Read(file_path="/Users/yuichi/AIPM/aipm_v0/.claude/skills/analyze-sns
 - `{threads_engagement:,}` → 総エンゲージメント
 - `{threads_engagement_rate}` → エンゲージメント率（views>0の場合のみ計算）
 
-**Facebook詳細（13個）**:
-- `{facebook_views:,}` → 総閲覧数
+**Facebook詳細（16個、指定期間の実績値）**:
+- `{facebook_period}` → データ期間（例: "2026-01-01 ~ 2026-01-11"）
+- `{facebook_period_days}` → 期間日数（例: 11日間）
+- `{facebook_views:,}` → 総閲覧数（Views、指定期間の実績値）
+- `{facebook_impressions:,}` → 総インプレッション（Content Library、指定期間の実績値）
 - `{facebook_viewers:,}` → 閲覧者数
 - `{facebook_interactions:,}` → 総インタラクション
 - `{facebook_reactions:,}` → リアクション数
 - `{facebook_comments:,}` → コメント数
 - `{facebook_shares:,}` → シェア数
 - `{facebook_followers:,}` → 総フォロワー数
-- `{facebook_net_followers}` → 純フォロー数（増減）
+- `{facebook_net_followers}` → 純フォロー数（期間内増減）
 - `{facebook_engagement_rate}` → エンゲージメント率
-- `{facebook_views_change}` → 閲覧数変化率（例: +220.4%）
-- `{facebook_interactions_change}` → インタラクション変化率（例: +146.0%）
-- `{facebook_followers_change}` → フォロワー変化率（例: +3.8%）
-- `{facebook_data_source}` → "Professional Dashboard (Chrome MCP)"（固定値）
+- `{facebook_views_change}` → 閲覧数変化率（前期比、例: +357.1%）
+- `{facebook_interactions_change}` → インタラクション変化率（前期比、例: +162.2%）
+- `{facebook_followers_change}` → フォロワー変化率（前期比、例: +2.9%）
+- `{facebook_data_source}` → "Professional Dashboard (Chrome MCP、指定期間フィルター適用)"
+
+**重要**: すべての数値は**指定期間（period）の実績値**です。換算値ではありません。
 
 **前週比較・トレンド（15個）**:
 - `{week_over_week_impressions_change}` → 前週比インプレッション変化
@@ -621,7 +671,7 @@ Write(file_path=REPORT_FILE, content=filled_template)
    3位: {top3_platform} - {top3_impressions:,}回
 
 ℹ️  Threads: viewsフィールド使用（0の場合はエンゲージメント絶対数で評価）
-ℹ️  Facebook: Professional Dashboard経由で28日間累計データ
+ℹ️  Facebook: 指定期間の実績値（期間フィルター適用済み、換算不要）
 
 詳細レポート: {REPORT_FILE}
 ================================================================================
@@ -710,6 +760,46 @@ LATE_API_KEY=xxxxxxxxxxxxxxxxxxxxx
 ```bash
 LATE_API_KEY=xxxxxxxxxxxxxxxxxxxxx # My API Key ← これは NG
 ```
+
+---
+
+## Facebook期間データの重要な注意事項
+
+### データ期間の仕組み
+
+1. **collect-facebook-performanceスキル実行時**:
+   - `since_date`（開始日）と`until_date`（終了日）をパラメータで指定
+   - STEP 1.5でProfessional Dashboardの日付フィルターを設定
+   - 設定後、STEP 3〜7で取得されるすべてのデータが指定期間に限定される
+
+2. **出力されるJSONデータ**:
+   ```json
+   {
+     "period": "2026-01-01 ~ 2026-01-11",
+     "period_days": 11,
+     "summary": {
+       "total_views": 223804,  // 指定期間の実績値
+       "total_interactions": 1361,  // 指定期間の実績値
+       ...
+     }
+   }
+   ```
+
+3. **KPI評価時の注意**:
+   - 週間目標（7日基準）を期間日数に応じて調整
+   - 例: 11日間の場合、目標 = 週間目標 × (11/7) = 週間目標 × 1.571
+   - 達成率 = 実績 / 調整後目標 × 100
+
+### よくある誤解
+
+❌ **誤り**: Facebookデータは常に28日累計で、週間換算が必要
+✅ **正しい**: STEP 1.5で期間フィルターを設定すれば、指定期間の実データが取得される
+
+❌ **誤り**: `total_views = 28日データ × (7/28) = 週間換算値`
+✅ **正しい**: `total_views = 指定期間の実績値（換算不要）`
+
+❌ **誤り**: 週間目標（100,000 views）と直接比較
+✅ **正しい**: 期間日数に応じた目標（11日なら157,100 views）と比較
 
 ---
 
@@ -1251,14 +1341,17 @@ new_week = {
                 "note": "viewsフィールド使用。0の場合はエンゲージメント絶対数で評価"
             },
             "facebook": {  # Chrome MCP経由で収集したデータ
-                "views": facebook_views,  # 28日累計
-                "interactions": facebook_interactions,
+                "period": facebook_period,  # 例: "2026-01-01 ~ 2026-01-11"
+                "period_days": facebook_period_days,  # 例: 11
+                "views": facebook_views,  # 指定期間の実績値
+                "impressions": facebook_impressions,  # Content Library（指定期間）
+                "interactions": facebook_interactions,  # 指定期間の実績値
                 "followers": facebook_followers,
-                "net_followers": facebook_net_followers,
+                "net_followers": facebook_net_followers,  # 期間内増減
                 "engagement_rate": facebook_engagement_rate,
-                "data_source": "Professional Dashboard (Chrome MCP)",
+                "data_source": "Professional Dashboard (Chrome MCP、期間フィルター適用)",
                 "data_quality": fb_data_quality,
-                "note": "28日間累計データ（週次比較は変化率で評価）"
+                "note": "指定期間の実績値（STEP 1.5で期間フィルター適用済み、換算不要）"
             }
         }
     },
